@@ -1,0 +1,24 @@
+{
+  "name": "@felix-kaestner/renovate-config",
+  "version": "1.0.0",
+  "description": "Renovate Preset for Open Source Libraries",
+  "files": [
+    "default.json"
+  ],
+  "repository": "git://github.com/felix-kaestner/renovate-config",
+  "homepage": "https://github.com/felix-kaestner/renovate-config",
+  "license": "MIT",
+  "private": true,
+  "sideEffects": false,
+  "author": {
+    "name": "Felix Kästner",
+    "email": "hello@felix-kaestner.com",
+    "url": "https://felix-kaestner.com"
+  },
+  "scripts": {
+    "test": "renovate-config-validator"
+  },
+  "devDependencies": {
+    "renovate": "^31.71.0"
+  }
+}
