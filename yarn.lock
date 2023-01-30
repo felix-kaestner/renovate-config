@@ -1415,24 +1415,29 @@
   resolved "https://registry.yarnpkg.com/@octokit/openapi-types/-/openapi-types-14.0.0.tgz#949c5019028c93f189abbc2fb42f333290f7134a"
   integrity sha512-HNWisMYlR8VCnNurDU6os2ikx0s0VyEjDYHNS/h4cgb8DeOxQ0n72HyinUtdDVxJhFy3FWLGl0DJhfEWk3P5Iw==
 
-"@octokit/plugin-paginate-rest@^5.0.0":
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/@octokit/plugin-paginate-rest/-/plugin-paginate-rest-5.0.1.tgz#93d7e74f1f69d68ba554fa6b888c2a9cf1f99a83"
-  integrity sha512-7A+rEkS70pH36Z6JivSlR7Zqepz3KVucEFVDnSrgHXzG7WLAzYwcHZbKdfTXHwuTHbkT1vKvz7dHl1+HNf6Qyw==
+"@octokit/openapi-types@^16.0.0":
+  version "16.0.0"
+  resolved "https://registry.yarnpkg.com/@octokit/openapi-types/-/openapi-types-16.0.0.tgz#d92838a6cd9fb4639ca875ddb3437f1045cc625e"
+  integrity sha512-JbFWOqTJVLHZSUUoF4FzAZKYtqdxWu9Z5m2QQnOyEa04fOFljvyh7D3GYKbfuaSWisqehImiVIMG4eyJeP5VEA==
+
+"@octokit/plugin-paginate-rest@^6.0.0":
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/@octokit/plugin-paginate-rest/-/plugin-paginate-rest-6.0.0.tgz#f34b5a7d9416019126042cd7d7b811e006c0d561"
+  integrity sha512-Sq5VU1PfT6/JyuXPyt04KZNVsFOSBaYOAq2QRZUwzVlI10KFvcbUo8lR258AAQL1Et60b0WuVik+zOWKLuDZxw==
   dependencies:
-    "@octokit/types" "^8.0.0"
+    "@octokit/types" "^9.0.0"
 
 "@octokit/plugin-request-log@^1.0.4":
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/@octokit/plugin-request-log/-/plugin-request-log-1.0.4.tgz#5e50ed7083a613816b1e4a28aeec5fb7f1462e85"
   integrity sha512-mLUsMkgP7K/cnFEw07kWqXGF5LKrOkD+lhCrKvPHXWDywAwuDUeDwWBpc69XK3pNX0uKiVt8g5z96PJ6z9xCFA==
 
-"@octokit/plugin-rest-endpoint-methods@^6.7.0":
-  version "6.7.0"
-  resolved "https://registry.yarnpkg.com/@octokit/plugin-rest-endpoint-methods/-/plugin-rest-endpoint-methods-6.7.0.tgz#2f6f17f25b6babbc8b41d2bb0a95a8839672ce7c"
-  integrity sha512-orxQ0fAHA7IpYhG2flD2AygztPlGYNAdlzYz8yrD8NDgelPfOYoRPROfEyIe035PlxvbYrgkfUZIhSBKju/Cvw==
+"@octokit/plugin-rest-endpoint-methods@^7.0.0":
+  version "7.0.1"
+  resolved "https://registry.yarnpkg.com/@octokit/plugin-rest-endpoint-methods/-/plugin-rest-endpoint-methods-7.0.1.tgz#f7ebe18144fd89460f98f35a587b056646e84502"
+  integrity sha512-pnCaLwZBudK5xCdrR823xHGNgqOzRnJ/mpC/76YPpNP7DybdsJtP7mdOwh+wYZxK5jqeQuhu59ogMI4NRlBUvA==
   dependencies:
-    "@octokit/types" "^8.0.0"
+    "@octokit/types" "^9.0.0"
     deprecation "^2.3.1"
 
 "@octokit/request-error@^3.0.0":
@@ -1456,15 +1461,15 @@
     node-fetch "^2.6.7"
     universal-user-agent "^6.0.0"
 
-"@octokit/rest@^19.0.5":
-  version "19.0.5"
-  resolved "https://registry.yarnpkg.com/@octokit/rest/-/rest-19.0.5.tgz#4dbde8ae69b27dca04b5f1d8119d282575818f6c"
-  integrity sha512-+4qdrUFq2lk7Va+Qff3ofREQWGBeoTKNqlJO+FGjFP35ZahP+nBenhZiGdu8USSgmq4Ky3IJ/i4u0xbLqHaeow==
+"@octokit/rest@^19.0.7":
+  version "19.0.7"
+  resolved "https://registry.yarnpkg.com/@octokit/rest/-/rest-19.0.7.tgz#d2e21b4995ab96ae5bfae50b4969da7e04e0bb70"
+  integrity sha512-HRtSfjrWmWVNp2uAkEpQnuGMJsu/+dBr47dRc5QVgsCbnIc1+GFEaoKBWkYG+zjrsHpSqcAElMio+n10c0b5JA==
   dependencies:
     "@octokit/core" "^4.1.0"
-    "@octokit/plugin-paginate-rest" "^5.0.0"
+    "@octokit/plugin-paginate-rest" "^6.0.0"
     "@octokit/plugin-request-log" "^1.0.4"
-    "@octokit/plugin-rest-endpoint-methods" "^6.7.0"
+    "@octokit/plugin-rest-endpoint-methods" "^7.0.0"
 
 "@octokit/types@^6.0.3", "@octokit/types@^6.16.1":
   version "6.34.0"
@@ -1479,6 +1484,13 @@
   integrity sha512-65/TPpOJP1i3K4lBJMnWqPUJ6zuOtzhtagDvydAWbEXpbFYA0oMKKyLb95NFZZP0lSh/4b6K+DQlzvYQJQQePg==
   dependencies:
     "@octokit/openapi-types" "^14.0.0"
+
+"@octokit/types@^9.0.0":
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/@octokit/types/-/types-9.0.0.tgz#6050db04ddf4188ec92d60e4da1a2ce0633ff635"
+  integrity sha512-LUewfj94xCMH2rbD5YJ+6AQ4AVjFYTgpp6rboWM5T7N3IsIF65SBEOVcYMGAEzO/kKNiNaW4LoWtoThOhH06gw==
+  dependencies:
+    "@octokit/openapi-types" "^16.0.0"
 
 "@one-ini/wasm@0.1.1":
   version "0.1.1"
@@ -1730,22 +1742,22 @@
   resolved "https://registry.yarnpkg.com/@redis/time-series/-/time-series-1.0.4.tgz#af85eb080f6934580e4d3b58046026b6c2b18717"
   integrity sha512-ThUIgo2U/g7cCuZavucQTQzA9g9JbDDY2f64u3AbAoz/8vE2lt2U37LamDUVChhaDA3IRT9R6VvJwqnUfTJzng==
 
-"@renovatebot/osv-offline-db@1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@renovatebot/osv-offline-db/-/osv-offline-db-1.1.0.tgz#08d876ecc013bedb723c309ef905e30c49ef27f4"
-  integrity sha512-svr4WbqUnL9XBMPYQxHDX5ev/V7b3TouXHNbdoKAKzUSw1cDOkZpxUWfawuG9YxXhLiZdI2KtSORwuohUYK+7Q==
+"@renovatebot/osv-offline-db@1.3.1":
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/@renovatebot/osv-offline-db/-/osv-offline-db-1.3.1.tgz#ce9db5e49cd37549afba874a89e56ae6c758cd83"
+  integrity sha512-DnNPBY0nCDRKF2yF4nfcRpj5IpWYsM9iLAc5bTyYVNGsMAnjThkpwkDi9dhG3Hf7pY2PWn7Aj2A704hq9b/MtQ==
   dependencies:
-    "@seald-io/nedb" "^3.1.0"
+    "@seald-io/nedb" "^4.0.0"
 
-"@renovatebot/osv-offline@1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@renovatebot/osv-offline/-/osv-offline-1.1.0.tgz#7bee8f0d95c7c2299cde74bda3f9b245c2ea8958"
-  integrity sha512-e6+p2dtqe0HOK7v2E4Nl7FZK1ghT4MQi6/gP2FsYehcRnxfZgVCcrgzEvWCKZR5a1+VMvHsVlmOdwt/vmNFrgQ==
+"@renovatebot/osv-offline@1.1.5":
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/@renovatebot/osv-offline/-/osv-offline-1.1.5.tgz#190f7f68b450f5df755950f32166829ad36835e2"
+  integrity sha512-puVnDwYHYz9ou3wB/0FMf+Sc4nbhTXHUDj4cv6vNIXxxwPLp21oZfVrHOCMua0r2WFhZONS17hB2FPIjeKgYCQ==
   dependencies:
-    "@octokit/rest" "^19.0.5"
-    "@renovatebot/osv-offline-db" "1.1.0"
+    "@octokit/rest" "^19.0.7"
+    "@renovatebot/osv-offline-db" "1.3.1"
     adm-zip "~0.5.10"
-    fs-extra "^10.1.0"
+    fs-extra "^11.1.0"
     got "^11.8.6"
     luxon "^3.2.1"
 
@@ -1761,17 +1773,17 @@
   dependencies:
     tslib "^2.4.1"
 
-"@seald-io/binary-search-tree@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@seald-io/binary-search-tree/-/binary-search-tree-1.0.2.tgz#9f0e5cec5e0acf97f1b495f2f6d3476ddb6a94ed"
-  integrity sha512-+pYGvPFAk7wUR+ONMOlc6A+LUN4kOCFwyPLjyaeS7wVibADPHWYJNYsNtyIAwjF1AXQkuaXElnIc4XjKt55QZA==
+"@seald-io/binary-search-tree@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@seald-io/binary-search-tree/-/binary-search-tree-1.0.3.tgz#165a9a456eaa30d15885b25db83861bcce2c6a74"
+  integrity sha512-qv3jnwoakeax2razYaMsGI/luWdliBLHTdC6jU55hQt1hcFqzauH/HsBollQ7IR4ySTtYhT+xyHoijpA16C+tA==
 
-"@seald-io/nedb@^3.1.0":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@seald-io/nedb/-/nedb-3.1.0.tgz#6105345a18596f6f9d69f46d7f572efdae32af8e"
-  integrity sha512-5G0hCQGJjOelOutvW1l4VD581XMhTPxpj1BUaCWTEM2MPXR9TzIr0MKMnEjnTA5nEKfujPyvVW7iF3etm1/gKQ==
+"@seald-io/nedb@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@seald-io/nedb/-/nedb-4.0.0.tgz#875595cbdf3e5b781bb15190e40b6e0606159b04"
+  integrity sha512-2hIBCoXn2O6fkUd7CeevtLdiK4WbAsE2wVhM6+CVG0Ub45aoyCC83P9ikUNcL5HytZA6gLRWc+1Eseio9ctfCQ==
   dependencies:
-    "@seald-io/binary-search-tree" "^1.0.2"
+    "@seald-io/binary-search-tree" "^1.0.3"
     localforage "^1.9.0"
     util "^0.12.4"
 
@@ -2956,19 +2968,10 @@ foreach@^2.0.5:
   resolved "https://registry.yarnpkg.com/foreach/-/foreach-2.0.5.tgz#0bee005018aeb260d0a3af3ae658dd0136ec1b99"
   integrity sha1-C+4AUBiusmDQo6865ljdATbsG5k=
 
-fs-extra@11.1.0:
+fs-extra@11.1.0, fs-extra@^11.1.0:
   version "11.1.0"
   resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-11.1.0.tgz#5784b102104433bb0e090f48bfc4a30742c357ed"
   integrity sha512-0rcTq621PD5jM/e0a3EJoGC/1TC5ZBCERW82LQuwfGnCa1V8w7dpYH1yNu+SLb6E5dkeCBzKEyLGlFrnr+dUyw==
-  dependencies:
-    graceful-fs "^4.2.0"
-    jsonfile "^6.0.1"
-    universalify "^2.0.0"
-
-fs-extra@^10.1.0:
-  version "10.1.0"
-  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-10.1.0.tgz#02873cfbc4084dde127eaa5f9905eef2325d1abf"
-  integrity sha512-oRXApq54ETRj4eMiFzGnHWGy+zo5raudjuxN0b8H7s/RU2oW0Wvsx9O0ACRN/kRq9E8Vu/ReskGB5o3ji+FzHQ==
   dependencies:
     graceful-fs "^4.2.0"
     jsonfile "^6.0.1"
@@ -4649,10 +4652,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@^34.114.1:
-  version "34.114.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-34.114.1.tgz#87a93843fd09f96ca0139abaec1e14502c884c76"
-  integrity sha512-D0UHTgms9aEPc/lEtSpJGnWkO4nm4qN9hOKdn4dbfPxZ+vm6OC4jKlxTunqfjSlfG1bvs3r96mDJhRAq7820nA==
+renovate@^34.116.1:
+  version "34.116.1"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-34.116.1.tgz#5c15c968869db2a5b10e1e69b041d260406a820d"
+  integrity sha512-iEeOzu7Nadyq5K4kpIt4/MzVXnhv8fmTOY+iuMObp82rmYG+WxZDyWZf1uGEfokG0QqaTF8Fs/bRDUsL8/iDBQ==
   dependencies:
     "@aws-sdk/client-codecommit" "3.256.0"
     "@aws-sdk/client-ec2" "3.256.0"
@@ -4674,7 +4677,7 @@ renovate@^34.114.1:
     "@opentelemetry/sdk-trace-node" "1.9.0"
     "@opentelemetry/semantic-conventions" "1.9.0"
     "@qnighy/marshal" "0.1.3"
-    "@renovatebot/osv-offline" "1.1.0"
+    "@renovatebot/osv-offline" "1.1.5"
     "@renovatebot/pep440" "2.1.10"
     "@renovatebot/ruby-semver" "2.1.4"
     "@sindresorhus/is" "4.6.0"
