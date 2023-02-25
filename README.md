@@ -31,3 +31,7 @@ Add this into your `renovate.json`:
 
 - [Configuration Options](https://renovatebot.com/docs/configuration-options)
 - [Renovate Presets](https://docs.renovatebot.com/config-presets/)
+
+---
+
+Released under the [MIT License](LICENSE).
