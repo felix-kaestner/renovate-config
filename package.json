@@ -12,13 +12,13 @@
   "sideEffects": false,
   "author": {
     "name": "Felix Kästner",
-    "email": "hello@felix-kaestner.com",
+    "email": "mail@felix-kaestner.com",
     "url": "https://felix-kaestner.com"
   },
   "scripts": {
     "test": "renovate-config-validator"
   },
   "devDependencies": {
-    "renovate": "^34.159.2"
+    "renovate": "^34.160.0"
   }
 }
