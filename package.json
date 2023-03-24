@@ -1,6 +1,6 @@
 {
   "name": "@felix-kaestner/renovate-config",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Renovate Preset for Open Source Libraries",
   "files": [
     "default.json"
@@ -19,6 +19,9 @@
     "test": "renovate-config-validator"
   },
   "devDependencies": {
-    "renovate": "^34.160.0"
+    "renovate": "^35.20.0"
+  },
+  "engines": {
+    "node": ">= 18.12.0"
   }
 }
