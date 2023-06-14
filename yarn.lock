@@ -3149,10 +3149,10 @@ glob-parent@^5.1.2:
   dependencies:
     is-glob "^4.0.1"
 
-glob@10.2.6, glob@^10.2.2:
-  version "10.2.6"
-  resolved "https://registry.yarnpkg.com/glob/-/glob-10.2.6.tgz#1e27edbb3bbac055cb97113e27a066c100a4e5e1"
-  integrity sha512-U/rnDpXJGF414QQQZv5uVsabTVxMSwzS5CH0p3DRCIV6ownl4f7PzGnkGmvlum2wB+9RlJWJZ6ACU1INnBqiPA==
+glob@10.2.7, glob@^10.2.2:
+  version "10.2.7"
+  resolved "https://registry.yarnpkg.com/glob/-/glob-10.2.7.tgz#9dd2828cd5bc7bd861e7738d91e7113dda41d7d8"
+  integrity sha512-jTKehsravOJo8IJxUGfZILnkvVJM/MOfHRs8QcXolVef2zNI9Tqyy5+SeuOAZd3upViEZQLyFpQhYiHLrMUNmA==
   dependencies:
     foreground-child "^3.1.0"
     jackspeak "^2.0.3"
@@ -4761,10 +4761,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@^35.117.0:
-  version "35.117.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-35.117.0.tgz#f79e66642493bbe343b77c1d299557d5458e1fd1"
-  integrity sha512-aV+v5NCRde4Qg0LjVlStWgmFmGzxIEJenYbP8y5tSY6dJ+Kdxj1rZRnwEqIQVVyjN1GFlRHRbSnJURuVsBZTZg==
+renovate@^35.117.3:
+  version "35.117.3"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-35.117.3.tgz#2146637ac64f11e5bea9d5bff4e019d4eb2cdda9"
+  integrity sha512-VWRxAIjk1mO/6r79eeI9+Kg/5JInL/9ZOzuTe7n8UZldxLOivnBjBjROihU8cxUK7FNkrctn7MBuwOm/0sszqQ==
   dependencies:
     "@aws-sdk/client-codecommit" "3.348.0"
     "@aws-sdk/client-ec2" "3.348.0"
@@ -4824,7 +4824,7 @@ renovate@^35.117.0:
     fs-extra "11.1.1"
     git-url-parse "13.1.0"
     github-url-from-git "1.5.0"
-    glob "10.2.6"
+    glob "10.2.7"
     global-agent "3.0.0"
     good-enough-parser "1.1.23"
     got "11.8.6"
