@@ -5338,10 +5338,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@^38.129.1:
-  version "38.129.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-38.129.1.tgz#3a219ae806c037e7fb0b51112bb4364a78f145eb"
-  integrity sha512-+jKxFQVMH90SBI+zQ/MqHX0rN7G95LG6w3C/Xl2VeuE5fJrodrjLEdxfgJcfYYGxbU7Y5GLzGLgzRDOF819Rpw==
+renovate@^38.130.0:
+  version "38.130.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-38.130.0.tgz#55f346d714ac6bd5f04a5e7827d3af878872b74a"
+  integrity sha512-a2HCjurq+pDrobpr33lOItPIhtRavUPuMsONYQ5loVfgo2ZeIZhK/RYTzh2Ml2ls+kMR0k7Uz3i5kG5r76N4vg==
   dependencies:
     "@aws-sdk/client-codecommit" "3.658.1"
     "@aws-sdk/client-ec2" "3.658.1"
@@ -5442,7 +5442,7 @@ renovate@^38.129.1:
     slugify "1.6.6"
     source-map-support "0.5.21"
     toml-eslint-parser "0.10.0"
-    tslib "2.7.0"
+    tslib "2.8.0"
     upath "2.0.1"
     url-join "4.0.1"
     validate-npm-package-name "5.0.1"
@@ -6034,10 +6034,10 @@ trough@^1.0.0:
   resolved "https://registry.yarnpkg.com/trough/-/trough-1.0.5.tgz#b8b639cefad7d0bb2abd37d433ff8293efa5f406"
   integrity sha512-rvuRbTarPXmMb79SmzEp8aqXNKcK+y0XaB298IXueQ8I2PsrATcPBCSPyK/dDNa2iWOhKlfNnOjdAOTBU/nkFA==
 
-tslib@2.7.0, tslib@^2.3.0, tslib@^2.3.1, tslib@^2.4.0, tslib@^2.6.2:
-  version "2.7.0"
-  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.7.0.tgz#d9b40c5c40ab59e8738f297df3087bf1a2690c01"
-  integrity sha512-gLXCKdN1/j47AiHiOkJN69hJmcbGTHI0ImLmbYLHykhgeN0jVGola9yVjFgzCUklsZQMW55o+dW7IXv3RCXDzA==
+tslib@2.8.0, tslib@^2.3.0, tslib@^2.3.1, tslib@^2.4.0, tslib@^2.6.2:
+  version "2.8.0"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.8.0.tgz#d124c86c3c05a40a91e6fdea4021bd31d377971b"
+  integrity sha512-jWVzBLplnCmoaTr13V9dYbiQ99wvZRd0vNWaDRg+aVYRcjDF3nDksxFDE/+fkXnKhpnUUkmx5pK/v8mCtLVqZA==
 
 tunnel-agent@^0.6.0:
   version "0.6.0"
