@@ -1511,7 +1511,12 @@
     localforage "^1.9.0"
     util "^0.12.4"
 
-"@sindresorhus/is@4.6.0", "@sindresorhus/is@^4.0.0":
+"@sindresorhus/is@7.0.1":
+  version "7.0.1"
+  resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-7.0.1.tgz#693cd0bfa7fdc71a3386b72088b660fb70851927"
+  integrity sha512-QWLl2P+rsCJeofkDNIT3WFmb6NrRud1SUYW8dIhXK/46XFV8Q/g7Bsvib0Askb0reRLe+WYPeeE+l5cH7SlkuQ==
+
+"@sindresorhus/is@^4.0.0":
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-4.6.0.tgz#3c7c9c46e678feefe7a2e5bb609d3dbd665ffb3f"
   integrity sha512-t09vSN3MdfsyCHoFcTRCH/iUtG7OJ0CsjzB8cjAmKc/va/kIgeDI/TxsigdncE/4be734m0cvIYwNaV4i2XqAw==
@@ -3700,10 +3705,10 @@ ieee754@^1.1.13:
   resolved "https://registry.yarnpkg.com/ieee754/-/ieee754-1.2.1.tgz#8eb7a10a63fff25d15a57b001586d177d1b0d352"
   integrity sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==
 
-ignore@7.0.3:
-  version "7.0.3"
-  resolved "https://registry.yarnpkg.com/ignore/-/ignore-7.0.3.tgz#397ef9315dfe0595671eefe8b633fec6943ab733"
-  integrity sha512-bAH5jbK/F3T3Jls4I0SO1hmPR0dKU0a7+SY6n1yzRtG54FLO8d6w/nxLFX2Nb7dBu6cCWXPaAME6cYqFUMmuCA==
+ignore@7.0.4:
+  version "7.0.4"
+  resolved "https://registry.yarnpkg.com/ignore/-/ignore-7.0.4.tgz#a12c70d0f2607c5bf508fb65a40c75f037d7a078"
+  integrity sha512-gJzzk+PQNznz8ysRrC0aOkBNVRBDtE1n53IqyqEf3PXrYwomFs5q4pGMizBMJF+ykh03insJ27hB8gSrD2Hn8A==
 
 immediate@~3.0.5:
   version "3.0.6"
@@ -4609,10 +4614,10 @@ nan@^2.20.0:
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.20.0.tgz#08c5ea813dd54ed16e5bd6505bf42af4f7838ca3"
   integrity sha512-bk3gXBZDGILuuo/6sKtr0DQmSThYHLtNCdSdXk9YkxD/jK6X2vmCyyXBBxyqZ4XcnzTyYEAThfX3DCEnLf6igw==
 
-nanoid@3.3.11:
-  version "3.3.11"
-  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.11.tgz#4f4f112cefbe303202f2199838128936266d185b"
-  integrity sha512-N8SpfPUnUp1bK+PMYW8qSWdl9U+wwNWI4QKxOYDy9JAro3WMX7p2OeVRF9v+347pnakNevPmiHhNmZ2HbFA76w==
+nanoid@5.1.5:
+  version "5.1.5"
+  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-5.1.5.tgz#f7597f9d9054eb4da9548cdd53ca70f1790e87de"
+  integrity sha512-Ir/+ZpE9fDsNH0hQ3C68uyThDXzYcim2EqcZ8zn8Chtt1iylPT9xXJB0kPCnqzgcEGikO9RxSrh63MsmVCU7Fw==
 
 napi-build-utils@^1.0.1:
   version "1.0.2"
@@ -5203,10 +5208,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@^40.0.7:
-  version "40.0.7"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-40.0.7.tgz#27e63e10f5d3865d38ad603a42b8566a537a3d7b"
-  integrity sha512-CGCdjHOjE8Njwc9EBovy8r6qiN7oQvuHR5Yt0KIXaSD89wnUXpUTPnPQMfVY9YGH/IuhS7fA2zG8hORmxVeYlQ==
+renovate@^40.3.1:
+  version "40.3.1"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-40.3.1.tgz#93389f512d047d4ac359902012bcf9d726d33c5b"
+  integrity sha512-jRoChIzv8/SLHrdOHQ919/F29OLGR139ahFEA5oOkKQIMtow2ryDWZmar+RoFotFR9/fC2yUviFjbpbI1NsiPw==
   dependencies:
     "@aws-sdk/client-codecommit" "3.799.0"
     "@aws-sdk/client-ec2" "3.800.0"
@@ -5239,7 +5244,7 @@ renovate@^40.0.7:
     "@renovatebot/osv-offline" "1.6.5"
     "@renovatebot/pep440" "4.1.0"
     "@renovatebot/ruby-semver" "4.0.0"
-    "@sindresorhus/is" "4.6.0"
+    "@sindresorhus/is" "7.0.1"
     "@yarnpkg/core" "4.4.1"
     "@yarnpkg/parsers" "3.0.3"
     agentkeepalive "4.6.0"
@@ -5279,7 +5284,7 @@ renovate@^40.0.7:
     got "11.8.6"
     graph-data-structure "4.5.0"
     handlebars "4.7.8"
-    ignore "7.0.3"
+    ignore "7.0.4"
     ini "5.0.0"
     json-dup-key-validator "1.0.3"
     json-stringify-pretty-compact "3.0.0"
@@ -5293,7 +5298,7 @@ renovate@^40.0.7:
     minimatch "10.0.1"
     moo "0.5.2"
     ms "2.1.3"
-    nanoid "3.3.11"
+    nanoid "5.1.5"
     neotraverse "0.6.18"
     node-html-parser "7.0.1"
     p-all "3.0.0"
@@ -5318,7 +5323,7 @@ renovate@^40.0.7:
     toml-eslint-parser "0.10.0"
     tslib "2.8.1"
     upath "2.0.1"
-    url-join "4.0.1"
+    url-join "5.0.0"
     validate-npm-package-name "6.0.0"
     vuln-vects "1.1.0"
     xmldoc "1.3.0"
@@ -6106,10 +6111,10 @@ upath@2.0.1, upath@^2.0.0:
   resolved "https://registry.yarnpkg.com/upath/-/upath-2.0.1.tgz#50c73dea68d6f6b990f51d279ce6081665d61a8b"
   integrity sha512-1uEe95xksV1O0CYKXo8vQvN1JEbtJp7lb7C5U9HMsIp6IVwntkH/oNUzyVNQSd4S1sYk2FpSSW44FqMc8qee5w==
 
-url-join@4.0.1:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/url-join/-/url-join-4.0.1.tgz#b642e21a2646808ffa178c4c5fda39844e12cde7"
-  integrity sha512-jk1+QP6ZJqyOiuEI9AEWQfju/nB2Pw466kbA0LEZljHwKeMgd9WrAEgEGxjPDD2+TNbbb37rTyhEfrCXfuKXnA==
+url-join@5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/url-join/-/url-join-5.0.0.tgz#c2f1e5cbd95fa91082a93b58a1f42fecb4bdbcf1"
+  integrity sha512-n2huDr9h9yzd6exQVnH/jU5mr+Pfx08LRXXZhkLLetAMESRj+anQsTAh940iMrIetKAmry9coFuZQ2jY8/p3WA==
 
 util-deprecate@^1.0.1, util-deprecate@~1.0.1:
   version "1.0.2"
