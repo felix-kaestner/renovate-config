@@ -4745,10 +4745,10 @@ once@^1.3.0, once@^1.3.1, once@^1.4.0:
   dependencies:
     wrappy "1"
 
-openpgp@6.1.0:
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/openpgp/-/openpgp-6.1.0.tgz#69210cf80f845eb52cde76ecdd82769d2632880c"
-  integrity sha512-fRTeitP+hoGJD3kbdUlAI++wE6MvfvXw1rBqHwmBMxIpLjowatJ2zb5ThkORpIkSz5F12wO+xCYRSTbT7M4qKA==
+openpgp@6.1.1:
+  version "6.1.1"
+  resolved "https://registry.yarnpkg.com/openpgp/-/openpgp-6.1.1.tgz#7f565492f8d243cd5e07181bcc56f07f21ac0608"
+  integrity sha512-V/DXZ5AGCz3q4X8psUSc3q4SxnH/bfICaTSpNcla7wvBFhrxa9/ajm31rtMwZ1qj7Fu2oMpfX6ZcxKmTBlb6Yg==
 
 p-all@3.0.0:
   version "3.0.0"
@@ -5205,10 +5205,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@^40.14.6:
-  version "40.14.6"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-40.14.6.tgz#7b7b573b9f93a0781eebec4aaeeed133aa8e7fe2"
-  integrity sha512-7A5MQYF7haeECm2q684DxEMkqQwJNSFc9F5tHBZVs0yENobpSrAbrAieoSA0aFkV+UV2cZJURNcGXMpiu7QMTQ==
+renovate@^40.18.1:
+  version "40.18.1"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-40.18.1.tgz#8b088e8690b0a99a50c1b1851466ec308f844397"
+  integrity sha512-eBOJvgUhXS55bOusnJE4uvBJ4k1GvGA6nsR5WjVdu3Fh9JqExpRX3RMJO310IKqVT94uNNMpqF2g+bBZ3ORRCg==
   dependencies:
     "@aws-sdk/client-codecommit" "3.799.0"
     "@aws-sdk/client-ec2" "3.800.0"
@@ -5310,7 +5310,7 @@ renovate@^40.14.6:
     remark "13.0.0"
     remark-github "10.1.0"
     safe-stable-stringify "2.5.0"
-    semver "7.7.1"
+    semver "7.7.2"
     semver-stable "3.0.0"
     semver-utils "1.1.4"
     shlex "2.1.2"
@@ -5328,7 +5328,7 @@ renovate@^40.14.6:
     zod "3.24.4"
   optionalDependencies:
     better-sqlite3 "11.10.0"
-    openpgp "6.1.0"
+    openpgp "6.1.1"
     re2 "1.21.5"
 
 repeat-string@^1.0.0:
@@ -5470,10 +5470,10 @@ semver-utils@1.1.4:
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.7.2.tgz#48d55db737c3287cd4835e17fa13feace1c41ef8"
   integrity sha512-cBznnQ9KjJqU67B52RMC65CMarK2600WFnbkcaiwWq3xy/5haFJlshgnpjovMVJ+Hff49d8GEn0b87C5pDQ10g==
 
-semver@7.7.1, semver@^7.0.0, semver@^7.1.2, semver@^7.3.2, semver@^7.3.4, semver@^7.3.5, semver@^7.7.1:
-  version "7.7.1"
-  resolved "https://registry.yarnpkg.com/semver/-/semver-7.7.1.tgz#abd5098d82b18c6c81f6074ff2647fd3e7220c9f"
-  integrity sha512-hlq8tAfn0m/61p4BVRcPzIGr6LKiMwo4VM6dGi6pt4qcRkmNzTcWq6eCEjEh+qXjkMDvPlOFFSGwQjoEa6gyMA==
+semver@7.7.2, semver@^7.0.0, semver@^7.1.2, semver@^7.3.2, semver@^7.3.4, semver@^7.3.5, semver@^7.7.1:
+  version "7.7.2"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-7.7.2.tgz#67d99fdcd35cec21e6f8b87a7fd515a33f982b58"
+  integrity sha512-RF0Fw+rO5AMf9MAyaRXI4AV0Ulj5lMHqVxxdSgiVbixSCXoEmmX/jk0CuJw4+3SqroYO9VoUh+HcuJivvtJemA==
 
 semver@^6.3.0:
   version "6.3.1"
