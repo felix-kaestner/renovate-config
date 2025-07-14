@@ -2973,10 +2973,10 @@ ecdsa-sig-formatter@1.0.11, ecdsa-sig-formatter@^1.0.11:
   dependencies:
     safe-buffer "^5.0.1"
 
-editorconfig@3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/editorconfig/-/editorconfig-3.0.0.tgz#d7307395be40abf04d0748093e78d0515d74c90e"
-  integrity sha512-cU9vLVQ1YmDmLL047KkgQ3Yv9jSI6ZlqW4XjEdG0RrFhz7kYQ5lxD7SfhQci8g1TQu9iMA+54rRLe6yvWxXxcA==
+editorconfig@3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/editorconfig/-/editorconfig-3.0.1.tgz#f82b241268f355a2d7bf515715d755f16a3313ed"
+  integrity sha512-k5NZM2XNIJfH/omUv0SRYaiLae4VRwg1ILW6xLOjuP4AQGAGcvzNij5imJ+m1rbzDIH0ov6EbH53BW96amFXpQ==
   dependencies:
     "@one-ini/wasm" "0.2.0"
     commander "^14.0.0"
@@ -5471,10 +5471,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@^41.30.3:
-  version "41.30.3"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-41.30.3.tgz#4831c784ac463ec9934da082c3cc4a6058e5bb7a"
-  integrity sha512-D71vbLquVR1EUe5YDjddOJXoSA/zUFcBOGQzaGEKhhBUQhB/pcTjyZ2j6ifFnRLF95wh721NjcWpjIngj3lC6A==
+renovate@^41.32.1:
+  version "41.32.1"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-41.32.1.tgz#d7008fc2f60e282910a0d0b95ef17d9b70c978cc"
+  integrity sha512-qZf4l9wPGg/5Of+/TuD0oX2tSA+2JHx7OhF4A+Z5zSY0FmRzjwKyOizlpk2UU9aMyRk2chgMTDo9DQT8GS0U7Q==
   dependencies:
     "@aws-sdk/client-codecommit" "3.840.0"
     "@aws-sdk/client-ec2" "3.840.0"
@@ -5528,7 +5528,7 @@ renovate@^41.30.3:
     dequal "2.0.3"
     detect-indent "7.0.1"
     diff "8.0.2"
-    editorconfig "3.0.0"
+    editorconfig "3.0.1"
     email-addresses "5.0.0"
     emoji-regex "10.4.0"
     emojibase "16.0.0"
@@ -5592,7 +5592,7 @@ renovate@^41.30.3:
     vuln-vects "1.1.0"
     xmldoc "2.0.2"
     yaml "2.8.0"
-    zod "3.25.71"
+    zod "3.25.74"
   optionalDependencies:
     better-sqlite3 "12.2.0"
     openpgp "6.1.1"
@@ -6607,10 +6607,10 @@ yocto-queue@^1.0.0:
   resolved "https://registry.yarnpkg.com/yocto-queue/-/yocto-queue-1.2.1.tgz#36d7c4739f775b3cbc28e6136e21aa057adec418"
   integrity sha512-AyeEbWOu/TAXdxlV9wmGcR0+yh2j3vYPGOECcIj2S7MkrLyC7ne+oye2BKTItt0ii2PHk4cDy+95+LshzbXnGg==
 
-zod@3.25.71, zod@^3.23.0:
-  version "3.25.71"
-  resolved "https://registry.yarnpkg.com/zod/-/zod-3.25.71.tgz#f87a19c06b061426564607726c05a4d3b9ac3fa9"
-  integrity sha512-BsBc/NPk7h8WsUWYWYL+BajcJPY8YhjelaWu2NMLuzgraKAz4Lb4/6K11g9jpuDetjMiqhZ6YaexFLOC0Ogi3Q==
+zod@3.25.74, zod@^3.23.0:
+  version "3.25.74"
+  resolved "https://registry.yarnpkg.com/zod/-/zod-3.25.74.tgz#9368a3986fe756bd94b9a5baad9919660ff3f250"
+  integrity sha512-J8poo92VuhKjNknViHRAIuuN6li/EwFbAC8OedzI8uxpEPGiXHGQu9wemIAioIpqgfB4SySaJhdk0mH5Y4ICBg==
 
 zwitch@^2.0.0:
   version "2.0.4"
