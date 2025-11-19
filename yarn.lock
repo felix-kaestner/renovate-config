@@ -5209,10 +5209,10 @@ p-locate@^6.0.0:
   dependencies:
     p-limit "^4.0.0"
 
-p-map@7.0.3, p-map@^7.0.2:
-  version "7.0.3"
-  resolved "https://registry.yarnpkg.com/p-map/-/p-map-7.0.3.tgz#7ac210a2d36f81ec28b736134810f7ba4418cdb6"
-  integrity sha512-VkndIv2fIB99swvQoA65bm+fsmt6UNdGeIB0oxBs+WhAhdh08QA04JXpI7rbB9r08/nkbysKoya9rtDERYOYMA==
+p-map@7.0.4, p-map@^7.0.2:
+  version "7.0.4"
+  resolved "https://registry.yarnpkg.com/p-map/-/p-map-7.0.4.tgz#b81814255f542e252d5729dca4d66e5ec14935b8"
+  integrity sha512-tkAQEw8ysMzmkhgw8k+1U/iPhWNhykKnSk4Rd5zLoPJCuJaGRPo6YposrZgaxHKzDHdDWWZvE/Sk7hsL2X/CpQ==
 
 p-map@^2.0.0:
   version "2.1.0"
@@ -5598,10 +5598,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@^42.13.3:
-  version "42.13.3"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-42.13.3.tgz#73b0e145602e1154051fd5e3126472d66de7d39d"
-  integrity sha512-8rnNoOLGhvdLiBUwkyft/VDBHjD6cL+JuWl1VJ62MiLcyq1yV/PRazdDpr+WmwxlzTrmGzNqgpF+Nsz6w87cGA==
+renovate@^42.14.3:
+  version "42.14.3"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-42.14.3.tgz#a1cd935381f8e6ea33fa10ff359777dc02cb8355"
+  integrity sha512-hVdlEXPtoMdU66MRWRiGfhEQdNvofJhcfziNScmrvN3uYATGw10wqmMwNTeCHRFwYItVLSQ5AMnooH++wQiEtw==
   dependencies:
     "@aws-sdk/client-codecommit" "3.922.0"
     "@aws-sdk/client-ec2" "3.922.0"
@@ -5692,7 +5692,7 @@ renovate@^42.13.3:
     neotraverse "0.6.18"
     node-html-parser "7.0.1"
     p-all "5.0.1"
-    p-map "7.0.3"
+    p-map "7.0.4"
     p-queue "9.0.0"
     p-throttle "8.1.0"
     parse-link-header "2.0.0"
