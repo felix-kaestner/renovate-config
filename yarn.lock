@@ -922,23 +922,23 @@
     klona "2.0.6"
     moo "0.5.3"
 
-"@renovatebot/osv-offline-db@3.0.4":
-  version "3.0.4"
-  resolved "https://registry.yarnpkg.com/@renovatebot/osv-offline-db/-/osv-offline-db-3.0.4.tgz#85139a8fcef8872ff3b3ad819904957e617be08f"
-  integrity sha512-VUwjP52OTICceWXjl2rVhMuNbBSuqsAVwgHpPXio6Kios0qUHsk7lKORt9bchat3BIFBf9tf7C1EiUEeoP5QYg==
+"@renovatebot/osv-offline-db@3.0.5":
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/@renovatebot/osv-offline-db/-/osv-offline-db-3.0.5.tgz#d78106e2784085f5a963f8bbbdeba472f265c84f"
+  integrity sha512-AGHe9dqmidu3ccckMXE8o5eI/eJvxflLr9u9rxBwNKb26NhQv0vTnm/TxOk6IRbsTdZWKHeWuCnyPhdVN8pJKw==
   dependencies:
     debug "^4.4.3"
 
-"@renovatebot/osv-offline@3.0.4":
-  version "3.0.4"
-  resolved "https://registry.yarnpkg.com/@renovatebot/osv-offline/-/osv-offline-3.0.4.tgz#5c6fa7d1c46df3936cd488548c66367af9086d4b"
-  integrity sha512-O2GzqECIyNA3PMAqb/4Ez/n4PmEu54g8iEkteTHKaNYN2GKDwzp6UXA8sYqH+8qy/jbpQed1sKFimu0Z5iQ2Sg==
+"@renovatebot/osv-offline@3.0.5":
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/@renovatebot/osv-offline/-/osv-offline-3.0.5.tgz#50653fc6cdf09a886cab904e1198709cb7d63b71"
+  integrity sha512-RRg90Cce+A7tAmdbREZjVhSqgDFHYGm8qFnIwJOanozswfHpVk57yg7SSF11RjzGMpBV9j3HvgjtTYkMGCXMOg==
   dependencies:
-    "@renovatebot/osv-offline-db" "3.0.4"
+    "@renovatebot/osv-offline-db" "3.0.5"
     adm-zip "~0.5.17"
     debug "^4.4.3"
     fs-extra "^11.3.5"
-    got "^15.0.6"
+    got "^15.0.7"
     luxon "^3.7.2"
 
 "@renovatebot/pep440@5.0.0":
@@ -1380,10 +1380,10 @@ adm-zip@0.5.17, adm-zip@~0.5.17:
   resolved "https://registry.yarnpkg.com/adm-zip/-/adm-zip-0.5.17.tgz#5c0b65f37aeec5c2a94995c024f931f62e4bbc5a"
   integrity sha512-+Ut8d9LLqwEvHHJl1+PIHqoyDxFgVN847JTVM3Izi3xHDWPE4UtzzXysMZQs64DMcrJfBeS/uoEP4AD3HQHnQQ==
 
-ae-cvss-calculator@1.0.12:
-  version "1.0.12"
-  resolved "https://registry.yarnpkg.com/ae-cvss-calculator/-/ae-cvss-calculator-1.0.12.tgz#b4f779fc4391f371a47c0344c5d99bb6bc45171e"
-  integrity sha512-YVO+dhb8sZubNeL9pqSlN5hyZGC8hkAwnThnd3EimUGZtJEMeuy4kMb7zMCAsBiMr/RxklH0oY7DCsFV/B7peg==
+ae-cvss-calculator@1.0.13:
+  version "1.0.13"
+  resolved "https://registry.yarnpkg.com/ae-cvss-calculator/-/ae-cvss-calculator-1.0.13.tgz#077bd0b4b9314b3e07a73d505a4a64e19a9f8854"
+  integrity sha512-QnPO1O5gZ/1NM+X4fbfqN/y5rImEZ8CSkbSk7Arv4RrmxPzxLXr9RSLmsQJykDtXFUXn9wHLxC0/fe/pO78t3w==
 
 agent-base@^7.0.2:
   version "7.1.0"
@@ -2435,10 +2435,10 @@ got@^11.7.0:
     p-cancelable "^2.0.0"
     responselike "^2.0.0"
 
-got@^15.0.6:
-  version "15.0.7"
-  resolved "https://registry.yarnpkg.com/got/-/got-15.0.7.tgz#cb8613439b0a2f51293f729dd6b6b6e231859ddf"
-  integrity sha512-HA4XUhL2xk0/sA4l3zRyOzfqPtDEiVYpzDae56WLX2aHZYF6v6hjTnuDvURIdznSTPFYW1JUdlREhZjGAF9LCQ==
+got@^15.0.7:
+  version "15.1.0"
+  resolved "https://registry.yarnpkg.com/got/-/got-15.1.0.tgz#6e1a3673b4d9ecf46d5223909d8523c82162f8a5"
+  integrity sha512-DG+DAAkRtno+oDr/GBsliAkhN9+zczOPM5qXk3efDZY3qvyRnZU+NwQlb/IOY6cSnxxTR9z3aHCcShJyjb0hJA==
   dependencies:
     "@sindresorhus/is" "^8.0.0"
     byte-counter "^0.1.0"
@@ -3855,10 +3855,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@^43.251.0:
-  version "43.251.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-43.251.0.tgz#e25f4b994a79479d56582f96d7f69ad3e827df61"
-  integrity sha512-LJ72e8QdJjSg7cE6z7MV0c/T9ahmkqK/4lh4L+VQrm6SvwBPyrADvAxCLQP5I2ainTrz0HX46/UYbPvebRguVg==
+renovate@^43.252.1:
+  version "43.252.1"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-43.252.1.tgz#8f4735798ab4ccbf606802c4b063a71e072c634f"
+  integrity sha512-VMp8vXuiK5G2/rEInBZXj7M/hth4MG3URL4dyp0/iRYboRkqQ8t2Fmru6B59qk6gQ5+N6Wm4YwYSPGvzefAzhA==
   dependencies:
     "@aws-sdk/client-codecommit" "3.1075.0"
     "@aws-sdk/client-ec2" "3.1075.0"
@@ -3890,7 +3890,7 @@ renovate@^43.251.0:
     "@redis/client" "5.12.1"
     "@renovatebot/detect-tools" "4.0.8"
     "@renovatebot/good-enough-parser" "2.0.1"
-    "@renovatebot/osv-offline" "3.0.4"
+    "@renovatebot/osv-offline" "3.0.5"
     "@renovatebot/pep440" "5.0.0"
     "@renovatebot/pgp" "1.3.14"
     "@renovatebot/ruby-semver" "5.0.0"
@@ -3898,7 +3898,7 @@ renovate@^43.251.0:
     "@yarnpkg/core" "4.9.0"
     "@yarnpkg/parsers" "3.0.3"
     adm-zip "0.5.17"
-    ae-cvss-calculator "1.0.12"
+    ae-cvss-calculator "1.0.13"
     agentkeepalive "4.6.0"
     async-mutex "0.5.0"
     aws4 "1.13.2"
