@@ -1755,10 +1755,10 @@ croner@10.0.1:
   resolved "https://registry.yarnpkg.com/croner/-/croner-10.0.1.tgz#4eb92806c99539146dbe2f3ee3907e319cb2847a"
   integrity sha512-ixNtAJndqh173VQ4KodSdJEI6nuioBWI0V1ITNKhZZsO0pEMoDxz539T4FTTbSZ/xIOSuDnzxLVRqBVSvPNE2g==
 
-cronstrue@3.23.0:
-  version "3.23.0"
-  resolved "https://registry.yarnpkg.com/cronstrue/-/cronstrue-3.23.0.tgz#9b4f737d91bb96d643e8454044ad16ab2905b824"
-  integrity sha512-sIBZcwhpwkarRxfAHctpqGU9RapM7aLg5IktORluDnnUNkaTIIxEfI6S5IQy1isBGyTmgbbz4X6xPqpUgK7l0A==
+cronstrue@3.24.0:
+  version "3.24.0"
+  resolved "https://registry.yarnpkg.com/cronstrue/-/cronstrue-3.24.0.tgz#24b8732897ddb08f533b997832ebec6ecaa5cc97"
+  integrity sha512-t/Ji3Ur2c/pzhIAWNwC0ftl3JAE4dLfCjAdZoTZXmPDZwcispnS1PaMcMS4OmIIXyIVouAz+yw+mfQiE3hz5OQ==
 
 cross-spawn@^7.0.3:
   version "7.0.6"
@@ -3864,10 +3864,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@^43.252.7:
-  version "43.252.7"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-43.252.7.tgz#63978253d5f65adf4a0926a22da3edcde58723bc"
-  integrity sha512-ypgBvdqWgmI1sUkhymI5oXq9YIusUcqTmRKhxiqFLdE5Lt8oc1nfR3aQqKIUe2OZyJBQaq8qR95Qrcmqt2uWUA==
+renovate@^43.255.2:
+  version "43.255.2"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-43.255.2.tgz#1b2c0e683dc8f803537df76b1a22830b21a83ae0"
+  integrity sha512-3N5TNVxwmr5uVDcPEPTroTv9DgoKUjR98lkYvMrkawwvV+jfNKoUCAQzzvTPFzNu/sJnDXwjfpXygNPGQa0sgQ==
   dependencies:
     "@aws-sdk/client-codecommit" "3.1075.0"
     "@aws-sdk/client-ec2" "3.1075.0"
@@ -3918,7 +3918,7 @@ renovate@^43.252.7:
     clean-git-ref "2.0.1"
     commander "14.0.3"
     croner "10.0.1"
-    cronstrue "3.23.0"
+    cronstrue "3.24.0"
     deepmerge "4.3.1"
     dequal "2.0.3"
     detect-indent "7.0.2"
