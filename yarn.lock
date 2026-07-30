@@ -3660,10 +3660,10 @@ p-map@^6.0.0:
   resolved "https://registry.yarnpkg.com/p-map/-/p-map-6.0.0.tgz#4d9c40d3171632f86c47601b709f4b4acd70fed4"
   integrity sha512-T8BatKGY+k5rU+Q/GTYgrEf2r4xRMevAN5mtXc2aPc4rS1j3s+vWTaO2Wag94neXuCAUAs8cxBL9EeB5EA6diw==
 
-p-queue@9.3.1:
-  version "9.3.1"
-  resolved "https://registry.yarnpkg.com/p-queue/-/p-queue-9.3.1.tgz#f7bf8a4aef244150657fc7d2635a8a68bf1c304b"
-  integrity sha512-POWdiIPmsUPGwb4FeQ4OBg46aqmcInSWe45CKDsGHiOBiVQM9chqfQTuqhuTzcg2Vz9faTI65at0KkVyVEiCHw==
+p-queue@9.3.3:
+  version "9.3.3"
+  resolved "https://registry.yarnpkg.com/p-queue/-/p-queue-9.3.3.tgz#c5e528c7eb361b7ba8eb5a9406902f7f2e75fc8f"
+  integrity sha512-NXAOdnEe5FsZJfT4oK84lE1Y5cFFdWlRuOo5tww8DyNMxyRXwn39fIkUtNLKppcPC+UYU/bXujNCUGDv01y7CA==
   dependencies:
     eventemitter3 "^5.0.4"
     p-timeout "^7.0.0"
@@ -3880,10 +3880,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@^43.286.0:
-  version "43.286.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-43.286.0.tgz#0e3a46bfc1989aefc4afb158ffd9fa0c502287fe"
-  integrity sha512-ryyS/0vHSatFEPw42x9P6Mr4JwX7/cfhkWWE72epElgePwTGyMddUacKXAJm0w4vF7Y8giPskumRzp9Gbk3rZw==
+renovate@^44.2.2:
+  version "44.2.2"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-44.2.2.tgz#224dc88009f58146c8740d7876b0ec7a0e8c485e"
+  integrity sha512-z3f4E6c3S3TrWdrVxpDpKPZBmiYVCjrj3SdCT44ZQOvXIuZYs08zHJP6ExcK+6XVOrTbkvH3NeSBl51S2DobgQ==
   dependencies:
     "@aws-sdk/client-codecommit" "3.1075.0"
     "@aws-sdk/client-ec2" "3.1075.0"
@@ -3976,7 +3976,7 @@ renovate@^43.286.0:
     node-html-parser "7.1.0"
     p-all "5.0.1"
     p-map "7.0.6"
-    p-queue "9.3.1"
+    p-queue "9.3.3"
     p-throttle "8.1.0"
     parse-link-header "2.0.0"
     prettier "3.8.1"
