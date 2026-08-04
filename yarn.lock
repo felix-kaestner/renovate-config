@@ -3873,10 +3873,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@^44.4.4:
-  version "44.4.4"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-44.4.4.tgz#52c856c36a00cd413d48963f6325548512098b8e"
-  integrity sha512-PHUjBsprATTaGTiX/jIRl7NhOmUZgcuXK6k5EwCdMvkNlZpUNNiCK6g1m3wNSSjoeVOIQWOozMU//9MbLqEtcw==
+renovate@^44.5.2:
+  version "44.5.2"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-44.5.2.tgz#9b37df193d14c3f61de664835d61a33f2731ee15"
+  integrity sha512-lzo57rP5CiYUdezR5tpX/9/4gYx2AoZAi4aqPOfaHSdbUObmrda14/J9k3pklik87AoWNOWehQ2x95PPoh3nnA==
   dependencies:
     "@aws-sdk/client-codecommit" "3.1075.0"
     "@aws-sdk/client-ec2" "3.1075.0"
@@ -3979,7 +3979,7 @@ renovate@^44.4.4:
     remark-gfm "4.0.1"
     remark-github "12.0.0"
     safe-stable-stringify "2.5.0"
-    sax "1.6.0"
+    sax "1.6.1"
     semver "7.8.5"
     semver-stable "3.0.0"
     semver-utils "1.1.4"
@@ -4073,10 +4073,10 @@ safe-stable-stringify@2.5.0:
   resolved "https://registry.yarnpkg.com/safe-stable-stringify/-/safe-stable-stringify-2.5.0.tgz#4ca2f8e385f2831c432a719b108a3bf7af42a1dd"
   integrity sha512-b3rppTKm9T+PsVCBEOUR46GWI7fdOs00VKZ1+9c1EWDaDMvjQc6tUwuFyIprgGgTcWoVHSKrU8H31ZHA2e0RHA==
 
-sax@1.6.0, sax@^1.4.3:
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/sax/-/sax-1.6.0.tgz#da59637629307b97e7c4cb28e080a7bc38560d5b"
-  integrity sha512-6R3J5M4AcbtLUdZmRv2SygeVaM7IhrLXu9BmnOGmmACak8fiUtOsYNWUS4uK7upbmHIBbLBeFeI//477BKLBzA==
+sax@1.6.1, sax@^1.4.3:
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/sax/-/sax-1.6.1.tgz#4c23cf608c0b693ab54b4b5888e92cfe977b9843"
+  integrity sha512-42tBVwLWnaQvW5zc4HbZrTuWccECCZfBi92FDuwtqxasH+JbPB3/FOKb1m222K42R4WxuxzzMsTswfzgtSu64Q==
 
 semver-compare@^1.0.0:
   version "1.0.0"
