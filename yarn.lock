@@ -1335,10 +1335,10 @@ brace-expansion@^1.1.7:
     balanced-match "^1.0.0"
     concat-map "0.0.1"
 
-brace-expansion@^5.0.5:
-  version "5.0.8"
-  resolved "https://registry.yarnpkg.com/brace-expansion/-/brace-expansion-5.0.8.tgz#135ad0d8d808eb18eb5e0ec9a21f3a0b92ef18cf"
-  integrity sha512-JZyDyq3D4AUifKTPOB7DELf6XsB3WdPuNxCtob1vFXPsSXhdAiHBWJ/tJ8HAc9aH84BK+5JFZLNkJKx3G9kzQg==
+brace-expansion@^5.0.8:
+  version "5.0.9"
+  resolved "https://registry.yarnpkg.com/brace-expansion/-/brace-expansion-5.0.9.tgz#7c72438809b5fa5babf54199a1f1c281a6984fcf"
+  integrity sha512-ScQ4IuvIEF1TMlP7Zt+vjJ//9zlPb2SDcxWxM3bk8s6t6GGdJ7KO1dCcTidOPJKePW30LE/2cT7wCyPho9/Wxg==
   dependencies:
     balanced-match "^4.0.2"
 
@@ -3162,12 +3162,12 @@ minimalistic-assert@^1.0.0:
   resolved "https://registry.yarnpkg.com/minimalistic-assert/-/minimalistic-assert-1.0.1.tgz#2e194de044626d4a10e7f7fbc00ce73e83e4d5c7"
   integrity sha512-UtJcAD4yEaGtjPezWuO9wC4nwUnVH/8/Im3yEHQP4b67cXlD/Qr9hdITCU1xDbSEXg2XKNaP8jsReV7vQd00/A==
 
-minimatch@10.2.5, minimatch@^10.2.2, minimatch@~10.2.4:
-  version "10.2.5"
-  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-10.2.5.tgz#bd48687a0be38ed2961399105600f832095861d1"
-  integrity sha512-MULkVLfKGYDFYejP07QOurDLLQpcjk7Fw+7jXS2R2czRQzR56yHRveU5NDJEOviH+hETZKSkIk5c+T23GjFUMg==
+minimatch@10.2.6, minimatch@^10.2.2, minimatch@~10.2.4:
+  version "10.2.6"
+  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-10.2.6.tgz#fd956bbe0b77241e9f15ac5dccb1c638060968ef"
+  integrity sha512-vpLQEs+VLCr1nU0BXS07maYoFwlDAH0gngQuuttxIwutDFEMHq2blX+8vpgxDdK3J1PwjCJiep77OitTZ4Ll1A==
   dependencies:
-    brace-expansion "^5.0.5"
+    brace-expansion "^5.0.8"
 
 "minimatch@2 || 3":
   version "3.1.2"
@@ -3687,10 +3687,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@^44.7.2:
-  version "44.7.2"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-44.7.2.tgz#0bbcb55440d2c33fd7acf46b8eea6001f3ad38aa"
-  integrity sha512-HoDYxGEOIbBZUaS55HLyHamymcTEt8ZsfHYy1gwaksr3W7KeOASlRSiTjM6D1Gb3THJJSh3NGqnFjOvhSZG0Aw==
+renovate@^44.10.0:
+  version "44.10.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-44.10.0.tgz#25fee61941d970182c798329133cdcc46bec28dd"
+  integrity sha512-jvjTCf7hDG4hDPqyk3XaVcF4wXVdQeU0PmR7UikqLCbHIOfMorH1+CgddqYmcKj3FYDle1xRtttmP8DyhcQXzQ==
   dependencies:
     "@aws-sdk/client-codecommit" "3.1095.0"
     "@aws-sdk/client-ec2" "3.1095.0"
@@ -3776,7 +3776,7 @@ renovate@^44.7.2:
     luxon "3.7.2"
     markdown-it "14.3.0"
     markdown-table "3.0.4"
-    minimatch "10.2.5"
+    minimatch "10.2.6"
     moo "0.5.3"
     ms "2.1.3"
     neotraverse "0.6.18"
