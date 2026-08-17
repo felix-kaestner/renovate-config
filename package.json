@@ -19,7 +19,7 @@
     "test": "renovate-config-validator"
   },
   "devDependencies": {
-    "renovate": "^44.23.0"
+    "renovate": "^44.29.4"
   },
   "engines": {
     "node": ">= 18.12.0"
