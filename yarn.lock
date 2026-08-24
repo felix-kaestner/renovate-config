@@ -1267,10 +1267,10 @@ aws4@1.13.2:
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.13.2.tgz#0aa167216965ac9474ccfa83892cfb6b3e1e52ef"
   integrity sha512-lHe62zvbTB5eEABUVi/AwVh0ZKY9rMMDhmm+eeyuuUQbQ3+J+fONVQOZyj+DdrvD4BY33uYniyRJ4UJIaSKAfw==
 
-azure-devops-node-api@15.1.2:
-  version "15.1.2"
-  resolved "https://registry.yarnpkg.com/azure-devops-node-api/-/azure-devops-node-api-15.1.2.tgz#5dba168c0c91fb13a040e21995104150b8c03875"
-  integrity sha512-PfJTGK8oaBB3e0hilF5QE5BT0axpxssZlc0pRq3Rb0XsKr4qk1Cma+jBRRz0hE+zuUsu/7cz0WTCVo+kcVvOjw==
+azure-devops-node-api@15.1.3:
+  version "15.1.3"
+  resolved "https://registry.yarnpkg.com/azure-devops-node-api/-/azure-devops-node-api-15.1.3.tgz#5faa6160a5a824e88d2958f79c20ec3d66c7d153"
+  integrity sha512-YMgxCjQDqBr//vGy658tXTrXAgS2BzIChJ2Mzrq+fzLK+dh42fODWO/kEQMmtp+Rw0jNgEoUA72cHYVBrxrjRw==
   dependencies:
     tunnel "0.0.6"
     typed-rest-client "2.1.0"
@@ -3672,10 +3672,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@^44.32.5:
-  version "44.32.5"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-44.32.5.tgz#78a1133ff361fefc5af42821b3fc4b5e1cd84bbc"
-  integrity sha512-YYYNLahHQIcG1jGcz1fG7yoorz32VzWchQi1nClpAHlFbBJ/tJ++O9phMLwBneAUBJrqjNKhGrzuzO2cF64nhw==
+renovate@^44.37.1:
+  version "44.37.1"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-44.37.1.tgz#52f310f98970ac9f7fcdc88984888a8734ca24b0"
+  integrity sha512-zI2Zx0hD8WnzPBnhYoI5MJ9Ez5og9YruI/XkdH7iLb7O9lNFrX+kJdujimVdbnpLorBbUgEdPS4E448gCmLwlg==
   dependencies:
     "@aws-sdk/client-codecommit" "3.1095.0"
     "@aws-sdk/client-ec2" "3.1095.0"
@@ -3720,7 +3720,7 @@ renovate@^44.32.5:
     agentkeepalive "4.6.0"
     async-mutex "0.5.0"
     aws4 "1.13.2"
-    azure-devops-node-api "15.1.2"
+    azure-devops-node-api "15.1.3"
     bunyan "1.8.15"
     cacache "20.0.4"
     changelog-filename-regex "2.0.1"
