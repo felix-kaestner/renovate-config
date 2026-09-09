@@ -899,15 +899,15 @@
   dependencies:
     cluster-key-slot "1.1.2"
 
-"@renovatebot/detect-tools@4.0.12":
-  version "4.0.12"
-  resolved "https://registry.yarnpkg.com/@renovatebot/detect-tools/-/detect-tools-4.0.12.tgz#95187e2c1f9f52eed8f740e4b41047cce25664e7"
-  integrity sha512-UggJuv4v6kC2BrB5be6P6I4E/lf91UBPjWqJ+T3YFYVbxA5VM0U0F+M/t/fHwYVJV/n4vLPCBVVH5h4pRVWJkQ==
+"@renovatebot/detect-tools@4.0.13":
+  version "4.0.13"
+  resolved "https://registry.yarnpkg.com/@renovatebot/detect-tools/-/detect-tools-4.0.13.tgz#1598029d03cd30ee846d2a6b6522437b343a75f4"
+  integrity sha512-jyAb1xJeqQpVB06kGMNLzvoPwLWp2O2yMEIj7tTjOyQ8Ga332O46BjWre9vQpxMgemDvW8LFSBhLU7pIBwo1/w==
   dependencies:
     fs-extra "^11.4.0"
     toml-eslint-parser "^1.0.3"
     upath "^3.0.8"
-    zod "^4.5.1"
+    zod "^4.5.2"
 
 "@renovatebot/good-enough-parser@2.0.1":
   version "2.0.1"
@@ -938,15 +938,15 @@
     got "^15.1.0"
     luxon "^3.7.2"
 
-"@renovatebot/pep440@5.0.0":
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/@renovatebot/pep440/-/pep440-5.0.0.tgz#2731d4e1da1a178c3ec6e58a1272bc75c17cd8cb"
-  integrity sha512-91cFM32/pnOAvC7W1W1kPPI9QM2y6OrYCeomz7pop4A+3Ksh2XnZXGznUMlzR7YbOQlg7X/MNlF27s9Yt9hhTA==
+"@renovatebot/pep440@5.0.1":
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@renovatebot/pep440/-/pep440-5.0.1.tgz#f8308f410c8d0ee869b3dbd8b326494217307a74"
+  integrity sha512-KmMz+X68YvrS6aN6TJWtDiH8aCIL2Igcvceh17STHxMUN3KxXsC24COoOXjMOl/Gb+okBwwduMm8PY/WY/0Cpg==
 
-"@renovatebot/pgp@1.3.17":
-  version "1.3.17"
-  resolved "https://registry.yarnpkg.com/@renovatebot/pgp/-/pgp-1.3.17.tgz#cafc788daf2564a2b722e59aa25003b5eb866258"
-  integrity sha512-iDx7AR53Xhz6PfYEdIoiPYWq5KAvVjGUk0zVJ4U6CchbbTvSKuJ3nRLKsgA8sFKZTTuSlJLkqcL8peimkiZ27g==
+"@renovatebot/pgp@1.3.18":
+  version "1.3.18"
+  resolved "https://registry.yarnpkg.com/@renovatebot/pgp/-/pgp-1.3.18.tgz#2e29d2c659b6c6e1d6d77e62893cedf55e654ae7"
+  integrity sha512-A9THGqZbWTC7E/XO/jBnwtq5G8YehyWWHxIuHyiv0zBhTuZmb434QmeTtR2jFqT12gt9rFt4TEszAMI7QL49vQ==
 
 "@renovatebot/ruby-semver@5.0.0":
   version "5.0.0"
@@ -3844,10 +3844,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@^44.65.0:
-  version "44.65.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-44.65.0.tgz#d10345cfd45e8cd94b7ef79d1865f13f5d6e9bba"
-  integrity sha512-NZlTM/z00Q3H+3UnA13dmf0WGp/uk16ld7wkjkhTavzq1b+AE+c9fKIYvvDdPNPPqWl5Icwo7I572wWazhTMMg==
+renovate@^44.65.5:
+  version "44.65.5"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-44.65.5.tgz#1121885401c43fcce4447e0800751b1790b31a36"
+  integrity sha512-vZrrAL/+Rr+v9cGv24hYlLy1HnpUdH6h69KH+VQWtUvtImlYuM2jnzqerUa54gEAu5GDXIiugu5fgT59SXxx3w==
   dependencies:
     "@aws-sdk/client-codecommit" "3.1117.0"
     "@aws-sdk/client-ec2" "3.1117.0"
@@ -3880,11 +3880,11 @@ renovate@^44.65.0:
     "@pnpm/parse-overrides" "1001.0.4"
     "@qnighy/marshal" "0.1.3"
     "@redis/client" "5.12.1"
-    "@renovatebot/detect-tools" "4.0.12"
+    "@renovatebot/detect-tools" "4.0.13"
     "@renovatebot/good-enough-parser" "2.0.1"
     "@renovatebot/osv-offline" "3.0.10"
-    "@renovatebot/pep440" "5.0.0"
-    "@renovatebot/pgp" "1.3.17"
+    "@renovatebot/pep440" "5.0.1"
+    "@renovatebot/pgp" "1.3.18"
     "@renovatebot/ruby-semver" "5.0.0"
     "@sindresorhus/is" "8.1.0"
     "@yarnpkg/core" "4.9.1"
@@ -3970,7 +3970,7 @@ renovate@^44.65.0:
     xmldoc "2.0.3"
     yaml "2.9.0"
     yauzl "3.4.0"
-    zod "4.5.1"
+    zod "4.5.2"
   optionalDependencies:
     openpgp "6.3.1"
     re2 "1.26.1"
@@ -4615,12 +4615,12 @@ yocto-queue@^1.0.0:
   resolved "https://registry.yarnpkg.com/yocto-queue/-/yocto-queue-1.2.1.tgz#36d7c4739f775b3cbc28e6136e21aa057adec418"
   integrity sha512-AyeEbWOu/TAXdxlV9wmGcR0+yh2j3vYPGOECcIj2S7MkrLyC7ne+oye2BKTItt0ii2PHk4cDy+95+LshzbXnGg==
 
-zod@4.5.1:
-  version "4.5.1"
-  resolved "https://registry.yarnpkg.com/zod/-/zod-4.5.1.tgz#3837a11f4685e27b871aee73b340df82cf7939ec"
-  integrity sha512-P3GqeAEOEDqKvafVGLezbg+39YW/ze4xrD4qdS0adOY8eoI3zfjv1PQM4UwQzgT8mZKXEbqtVt8K+ZKGqkMFKg==
+zod@4.5.2:
+  version "4.5.2"
+  resolved "https://registry.yarnpkg.com/zod/-/zod-4.5.2.tgz#b580586f06ac3758aea39b2c2a319f90987aa477"
+  integrity sha512-XkYXCol10+ba/6F/cueWV+TezUeOqXW0hdeJt5CdXjTYeAgAQg5N03RQdJ80mhfFE72+pblvYMW4wy2Qp4Qbrg==
 
-zod@^4.5.1:
+zod@^4.5.2:
   version "4.5.4"
   resolved "https://registry.yarnpkg.com/zod/-/zod-4.5.4.tgz#e215c62420c528dd7951e31fb52c5438f1fd184a"
   integrity sha512-sC95tT5iHHH9gtpj6A81kh+NEaRAUFN+qlUPDUbRfOMvNf5QCBqsb3WgvnpVtK5Y+4UfA6KqufotuTvMGiTlsA==
