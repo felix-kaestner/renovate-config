@@ -898,15 +898,15 @@
   dependencies:
     cluster-key-slot "1.1.2"
 
-"@renovatebot/detect-tools@4.0.14":
-  version "4.0.14"
-  resolved "https://registry.yarnpkg.com/@renovatebot/detect-tools/-/detect-tools-4.0.14.tgz#a9d4e1e1a008b2461806068bc2511a3e5e7690dc"
-  integrity sha512-ZPKqa1fV99sCtKTCmPTG2NyIO6v/DO1QlN4hPJqg54QQm9gvhfcE2razmV10eZYC0J7Fx5/wwXXDvww/fd7Dqw==
+"@renovatebot/detect-tools@4.0.17":
+  version "4.0.17"
+  resolved "https://registry.yarnpkg.com/@renovatebot/detect-tools/-/detect-tools-4.0.17.tgz#8505b368ceefaf15e13a13287a99fc872b1b390b"
+  integrity sha512-tSMsEDAOLZ6RrO0EMziYli0lUPnKy1xLWlxe1XrylKMsgQSXk2qKFXHVV8KRLIIs4H8jnDuZ6pNWygWTKG456A==
   dependencies:
     fs-extra "^11.4.0"
     toml-eslint-parser "^1.0.3"
     upath "^3.0.8"
-    zod "^4.5.4"
+    zod "^4.6.2"
 
 "@renovatebot/good-enough-parser@2.0.1":
   version "2.0.1"
@@ -942,10 +942,10 @@
   resolved "https://registry.yarnpkg.com/@renovatebot/pep440/-/pep440-5.0.1.tgz#f8308f410c8d0ee869b3dbd8b326494217307a74"
   integrity sha512-KmMz+X68YvrS6aN6TJWtDiH8aCIL2Igcvceh17STHxMUN3KxXsC24COoOXjMOl/Gb+okBwwduMm8PY/WY/0Cpg==
 
-"@renovatebot/pgp@1.4.1":
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/@renovatebot/pgp/-/pgp-1.4.1.tgz#6e30205ac9716342daadf5c0c5ecbd7d0a6ce929"
-  integrity sha512-e4lknjxPe354YISRvhR5s9Vx2gB9hEJVK+O6dYzeE9MsAbyTpcHKcIeDXE2QGGi8h0WV5seUAQUhDh3f5jZ1Wg==
+"@renovatebot/pgp@2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@renovatebot/pgp/-/pgp-2.0.1.tgz#fb53a3eb6825829500af629e221440bb8181e4ae"
+  integrity sha512-aOnsCaPCF+xBCqNv9ru5Yo/e18lPMrXgXDOWkFZCmG+7syrRYaRTglE5vut1m2jAxlkYT4P6fAu4GD2MjH88Zw==
 
 "@renovatebot/ruby-semver@5.0.0":
   version "5.0.0"
@@ -1699,10 +1699,10 @@ croner@10.0.1:
   resolved "https://registry.yarnpkg.com/croner/-/croner-10.0.1.tgz#4eb92806c99539146dbe2f3ee3907e319cb2847a"
   integrity sha512-ixNtAJndqh173VQ4KodSdJEI6nuioBWI0V1ITNKhZZsO0pEMoDxz539T4FTTbSZ/xIOSuDnzxLVRqBVSvPNE2g==
 
-cronstrue@3.24.0:
-  version "3.24.0"
-  resolved "https://registry.yarnpkg.com/cronstrue/-/cronstrue-3.24.0.tgz#24b8732897ddb08f533b997832ebec6ecaa5cc97"
-  integrity sha512-t/Ji3Ur2c/pzhIAWNwC0ftl3JAE4dLfCjAdZoTZXmPDZwcispnS1PaMcMS4OmIIXyIVouAz+yw+mfQiE3hz5OQ==
+cronstrue@3.26.0:
+  version "3.26.0"
+  resolved "https://registry.yarnpkg.com/cronstrue/-/cronstrue-3.26.0.tgz#5a8563ccab650af031090f3ef9b9b5499d896b94"
+  integrity sha512-PEXTHEir/KllAWMsOQOsv3ZXjI6Y1PA1eVAEM/WhCaesAcCYHldra9pr2jkFH6r/ynbEOAPOGoWYz9NkjP0huA==
 
 cross-spawn@^7.0.3:
   version "7.0.6"
@@ -2516,10 +2516,10 @@ humanize-ms@^1.2.1:
   dependencies:
     ms "^2.0.0"
 
-ignore@7.0.8:
-  version "7.0.8"
-  resolved "https://registry.yarnpkg.com/ignore/-/ignore-7.0.8.tgz#84d8466899958458ee30b4190c839ee1446cc88d"
-  integrity sha512-YYNsSlXBjMk92SKnkwvB5LOVSa6OznlFUGcsvrFgNJbJCd0M1XKeFVRc8ZByeCqz32FivYNHJVooLmdqrmvp/Q==
+ignore@7.0.9:
+  version "7.0.9"
+  resolved "https://registry.yarnpkg.com/ignore/-/ignore-7.0.9.tgz#475b2197ade916edab05ade35c691518e8543382"
+  integrity sha512-brTTsvFRt5C1gGHtPst/281UjPD5t9fBqbgoMPlVWy11ZLTPfu7HxK4ZYqO9H7o/yC9rSTCI85EaQ4OoY12qYw==
 
 import-in-the-middle@^3.0.0:
   version "3.0.0"
@@ -3826,10 +3826,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@^44.90.2:
-  version "44.90.2"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-44.90.2.tgz#440f315fbc71730d0509f2a9ef9786acc7dcf53e"
-  integrity sha512-8VzK8eIa5ZQFNqJBZ4pAvX+B02suSwBfIzdU0D9V0fCJGIpfvwbzA0bpWADXbMycfRmALNOxHCMvga8LeDm7vQ==
+renovate@^44.97.4:
+  version "44.97.4"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-44.97.4.tgz#ea26d59029af070505d2404f562376279327aeef"
+  integrity sha512-UYEBVAKKVe0cRNefndOEML9S7JOiWnD6rr9nRvq5Ft00G5Amqijks/PFGrRuU8Q3j2bpD2wFNKawFlVTDDYbUQ==
   dependencies:
     "@aws-sdk/client-codecommit" "3.1117.0"
     "@aws-sdk/client-ec2" "3.1117.0"
@@ -3862,11 +3862,11 @@ renovate@^44.90.2:
     "@pnpm/parse-overrides" "1001.0.4"
     "@qnighy/marshal" "0.1.3"
     "@redis/client" "6.2.1"
-    "@renovatebot/detect-tools" "4.0.14"
+    "@renovatebot/detect-tools" "4.0.17"
     "@renovatebot/good-enough-parser" "2.0.1"
     "@renovatebot/osv-offline" "3.0.10"
     "@renovatebot/pep440" "5.0.1"
-    "@renovatebot/pgp" "1.4.1"
+    "@renovatebot/pgp" "2.0.1"
     "@renovatebot/ruby-semver" "5.0.0"
     "@sindresorhus/is" "8.1.0"
     "@yarnpkg/core" "4.9.1"
@@ -3884,7 +3884,7 @@ renovate@^44.90.2:
     commander "15.0.0"
     common-tags "1.8.2"
     croner "10.0.1"
-    cronstrue "3.24.0"
+    cronstrue "3.26.0"
     deepmerge "4.3.1"
     dequal "2.0.3"
     detect-indent "7.0.2"
@@ -3906,7 +3906,7 @@ renovate@^44.90.2:
     got "16.0.0"
     graph-data-structure "4.5.0"
     handlebars "4.7.9"
-    ignore "7.0.8"
+    ignore "7.0.9"
     ini "6.0.0"
     json-dup-key-validator "1.0.3"
     json-stringify-pretty-compact "4.0.0"
@@ -3953,7 +3953,7 @@ renovate@^44.90.2:
     xmldoc "3.0.0"
     yaml "2.9.0"
     yauzl "3.4.0"
-    zod "4.5.4"
+    zod "4.6.2"
   optionalDependencies:
     openpgp "6.3.1"
     re2 "1.26.1"
@@ -4593,15 +4593,15 @@ yocto-queue@^1.0.0:
   resolved "https://registry.yarnpkg.com/yocto-queue/-/yocto-queue-1.2.1.tgz#36d7c4739f775b3cbc28e6136e21aa057adec418"
   integrity sha512-AyeEbWOu/TAXdxlV9wmGcR0+yh2j3vYPGOECcIj2S7MkrLyC7ne+oye2BKTItt0ii2PHk4cDy+95+LshzbXnGg==
 
-zod@4.5.4:
-  version "4.5.4"
-  resolved "https://registry.yarnpkg.com/zod/-/zod-4.5.4.tgz#e215c62420c528dd7951e31fb52c5438f1fd184a"
-  integrity sha512-sC95tT5iHHH9gtpj6A81kh+NEaRAUFN+qlUPDUbRfOMvNf5QCBqsb3WgvnpVtK5Y+4UfA6KqufotuTvMGiTlsA==
-
-zod@^4.5.4:
+zod@4.6.2:
   version "4.6.2"
   resolved "https://registry.yarnpkg.com/zod/-/zod-4.6.2.tgz#91b2ce79ec994eaa42675499166587d3d223c961"
   integrity sha512-lh5RCAGFa1Cm2hjtNwLQhSs/AsqdWnTQaBER9fEwN/88pSh7KOtJavtBx/0VlkN/uFd61SwYmljLMDAsHlvzBQ==
+
+zod@^4.6.2:
+  version "4.6.5"
+  resolved "https://registry.yarnpkg.com/zod/-/zod-4.6.5.tgz#e3af3edbdc260239c52f73caad05dbbffe6e82cd"
+  integrity sha512-v5l/aFXZQeai4awLbOpSoHecE9UiMrnfx75tEXLjNonXVARxQ5mOeipTjROUchszUNCqnE+hqAMujRsRHsut2Q==
 
 zwitch@^2.0.0:
   version "2.0.4"
