@@ -918,20 +918,20 @@
     klona "2.0.6"
     moo "0.5.3"
 
-"@renovatebot/osv-offline-db@3.0.10":
-  version "3.0.10"
-  resolved "https://registry.yarnpkg.com/@renovatebot/osv-offline-db/-/osv-offline-db-3.0.10.tgz#a15e5f36c25b4765e44b772daac0c34b6a125d4c"
-  integrity sha512-xH4jJzMUagwJt4ofAtG8qWGc4TxgdNyVaUj6gjmdSVqd81fVu2qSkgVdd+Oh3O+MhTS6rOR3MZq+X5LqX4E4Iw==
+"@renovatebot/osv-offline-db@3.0.11":
+  version "3.0.11"
+  resolved "https://registry.yarnpkg.com/@renovatebot/osv-offline-db/-/osv-offline-db-3.0.11.tgz#15a7edf24f00f546001d1b664702bf74779dc99f"
+  integrity sha512-JFFrnTJjK/1GWMKilHfjU4GHZ+V9busmzZ+WUxDaQMlySNI1EA3Z3QTXG325noaDQhg0NqqXcPl8fLdrll0Oaw==
   dependencies:
     debug "^4.4.3"
 
-"@renovatebot/osv-offline@3.0.10":
-  version "3.0.10"
-  resolved "https://registry.yarnpkg.com/@renovatebot/osv-offline/-/osv-offline-3.0.10.tgz#0df95a98ccf9cb8f9cd38a53f61dcf2f89a608a1"
-  integrity sha512-btStcVTVmUaJ89qwdPlI+1yMyXTZSEpTMdgJv/77MsDzhOvVTNtoaDu6k0PHSPFoUfQ2X5WvZGRq2+CxUSqLPQ==
+"@renovatebot/osv-offline@3.0.11":
+  version "3.0.11"
+  resolved "https://registry.yarnpkg.com/@renovatebot/osv-offline/-/osv-offline-3.0.11.tgz#9d8e494a618475e2cfe0c006ef617a35f4ffa1ed"
+  integrity sha512-xnf1rGaPDZR1DePYrKlOyMaHR6Giy+bOlqKut60+SPbf80PajCQd+rK1tdngkO88YM4EM1DJmkAtjHutPLqaCg==
   dependencies:
-    "@renovatebot/osv-offline-db" "3.0.10"
-    adm-zip "~0.6.0"
+    "@renovatebot/osv-offline-db" "3.0.11"
+    adm-zip "~0.6.1"
     debug "^4.4.3"
     fs-extra "^11.4.0"
     got "^15.1.0"
@@ -1315,10 +1315,10 @@ acorn@^8.15.0:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.15.0.tgz#a360898bc415edaac46c8241f6383975b930b816"
   integrity sha512-NZyJarBfL7nWwIq+FDL6Zp/yHEhePMNnnJ0y3qfieCrmNvYct8uvtiV41UvlSe6apAfk0fY1FbWx+NwfmpvtTg==
 
-adm-zip@0.6.0, adm-zip@~0.6.0:
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/adm-zip/-/adm-zip-0.6.0.tgz#bbc5c6c333755e967a06dd98747f431e1d53a3cf"
-  integrity sha512-XleryMhbuksdKtofnWZ9Sk+4CUTbms4Mb/EU32SZwToAyZ5RgVos/ki8n+yr0LWHOGKuakbXTuuYNHLQjhddgg==
+adm-zip@0.6.1, adm-zip@~0.6.1:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/adm-zip/-/adm-zip-0.6.1.tgz#5b95da4a6e7af0663b71457c06e1517fa6ac8d5f"
+  integrity sha512-Xwrja8nx9e5o2N1my4DsKCeKpdrnACyr1wtbPxBDgGzKzKyE9kRtBFA8mWldI+RVlD7CBZNWY/wQ2+ydwOR6kQ==
 
 ae-cvss-calculator@1.0.13:
   version "1.0.13"
@@ -2810,10 +2810,10 @@ luxon@3.7.2, luxon@^3.7.2:
   resolved "https://registry.yarnpkg.com/luxon/-/luxon-3.7.2.tgz#d697e48f478553cca187a0f8436aff468e3ba0ba"
   integrity sha512-vtEhXh/gNjI9Yg1u4jX/0YVPMvxzHuGgCm6tC5kZyb08yjGWGnqAjGJvcXbqQR2P3MyMEFnRbpcdFS6PBcLqew==
 
-markdown-it@15.0.1:
-  version "15.0.1"
-  resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-15.0.1.tgz#33b87eafff0feb08cbef5edfd9bc20b3d920f5d8"
-  integrity sha512-9/7gE95FNPkfUWrjJIoHZza2iLmuJlPD0UNMxPi7bxUrbCR525YZY0r+zyfes0dZI5ZZ/uNIXUJca0pJvtw41g==
+markdown-it@15.0.2:
+  version "15.0.2"
+  resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-15.0.2.tgz#5bc092394e9693519f6d5f499d3575469fec62f3"
+  integrity sha512-q4IGxMv56jCqT4OCRCADBoDP3LO4MhmTXjFbphHPXs4g3j9Xg5RDnxqN8IF/3vIWEU+VCnUq+7JUg/cfy2E6Qw==
   dependencies:
     argparse "^3.0.0"
     entities "^8.0.0"
@@ -3826,10 +3826,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@^44.97.4:
-  version "44.97.4"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-44.97.4.tgz#ea26d59029af070505d2404f562376279327aeef"
-  integrity sha512-UYEBVAKKVe0cRNefndOEML9S7JOiWnD6rr9nRvq5Ft00G5Amqijks/PFGrRuU8Q3j2bpD2wFNKawFlVTDDYbUQ==
+renovate@^44.103.1:
+  version "44.103.1"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-44.103.1.tgz#6173dd2e85d61af9032fa4a833ea80c835a7ea1a"
+  integrity sha512-QSiC97uIA5i6geIOqPvfJywVH/gl+/Pr8c3OKB+nmcrdPKM9kGcnA8k1mNNwMN3gFQGZWLY0+A/5GtJI5CK6AA==
   dependencies:
     "@aws-sdk/client-codecommit" "3.1117.0"
     "@aws-sdk/client-ec2" "3.1117.0"
@@ -3864,14 +3864,14 @@ renovate@^44.97.4:
     "@redis/client" "6.2.1"
     "@renovatebot/detect-tools" "4.0.17"
     "@renovatebot/good-enough-parser" "2.0.1"
-    "@renovatebot/osv-offline" "3.0.10"
+    "@renovatebot/osv-offline" "3.0.11"
     "@renovatebot/pep440" "5.0.1"
     "@renovatebot/pgp" "2.0.1"
     "@renovatebot/ruby-semver" "5.0.0"
     "@sindresorhus/is" "8.1.0"
     "@yarnpkg/core" "4.9.1"
     "@yarnpkg/parsers" "3.1.0"
-    adm-zip "0.6.0"
+    adm-zip "0.6.1"
     ae-cvss-calculator "1.0.13"
     agentkeepalive "4.6.0"
     async-mutex "0.5.0"
@@ -3916,7 +3916,7 @@ renovate@^44.97.4:
     klona "2.0.6"
     lru-cache "11.5.2"
     luxon "3.7.2"
-    markdown-it "15.0.1"
+    markdown-it "15.0.2"
     markdown-table "3.0.4"
     minimatch "10.2.6"
     moo "0.5.3"
