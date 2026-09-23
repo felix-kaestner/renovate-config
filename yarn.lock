@@ -3591,10 +3591,10 @@ p-queue@9.3.3:
     eventemitter3 "^5.0.4"
     p-timeout "^7.0.0"
 
-p-throttle@8.1.0:
-  version "8.1.0"
-  resolved "https://registry.yarnpkg.com/p-throttle/-/p-throttle-8.1.0.tgz#990cb8ebb1dc657ab5c8025f43e02967cbaeb47c"
-  integrity sha512-c1wmXavsHZIC4g1OLhOsafK6jZSAeMo0Ap3yivj59PUcCkpacy5YgWdgIp/dB4vp1JZrfBSsPCR0YuADB+ENLQ==
+p-throttle@8.1.1:
+  version "8.1.1"
+  resolved "https://registry.yarnpkg.com/p-throttle/-/p-throttle-8.1.1.tgz#ac3a0072c376006433dc7b1aa034255fd1192273"
+  integrity sha512-xxWFBUyvbrQ10XC3VAr0SoXoOCKXqCX/yvbFIkBE98upphHFwjIKR6AId13ZH3jngFfF6yK43QTOtrngYAmFMA==
 
 p-timeout@^7.0.0:
   version "7.0.1"
@@ -3826,10 +3826,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@^44.103.1:
-  version "44.103.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-44.103.1.tgz#6173dd2e85d61af9032fa4a833ea80c835a7ea1a"
-  integrity sha512-QSiC97uIA5i6geIOqPvfJywVH/gl+/Pr8c3OKB+nmcrdPKM9kGcnA8k1mNNwMN3gFQGZWLY0+A/5GtJI5CK6AA==
+renovate@^44.103.3:
+  version "44.103.3"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-44.103.3.tgz#2c35d074696b027920fb11b360ba317482918cdf"
+  integrity sha512-PqauesudLvJWCcgZk58wuT9nwXrh5UZiszkdNQe8av9szEXt67obH3aWQYx3ICK+kmm98Ha3EQQWyukD/eeNzA==
   dependencies:
     "@aws-sdk/client-codecommit" "3.1117.0"
     "@aws-sdk/client-ec2" "3.1117.0"
@@ -3926,7 +3926,7 @@ renovate@^44.103.1:
     p-all "5.0.1"
     p-map "7.0.7"
     p-queue "9.3.3"
-    p-throttle "8.1.0"
+    p-throttle "8.1.1"
     parse-link-header "2.0.0"
     prettier "3.9.6"
     protobufjs "8.8.0"
@@ -3951,7 +3951,7 @@ renovate@^44.103.1:
     url-join "5.0.0"
     validate-npm-package-name "7.0.2"
     xmldoc "3.0.0"
-    yaml "2.9.0"
+    yaml "2.9.1"
     yauzl "3.4.0"
     zod "4.6.2"
   optionalDependencies:
@@ -4558,10 +4558,10 @@ yallist@^5.0.0:
   resolved "https://registry.yarnpkg.com/yallist/-/yallist-5.0.0.tgz#00e2de443639ed0d78fd87de0d27469fbcffb533"
   integrity sha512-YgvUTfwqyc7UXVMrB+SImsVYSmTS8X/tSrtdNZMImM+n7+QTriRXyXim0mBrTXNeqzVF0KWGgHPeiyViFFrNDw==
 
-yaml@2.9.0:
-  version "2.9.0"
-  resolved "https://registry.yarnpkg.com/yaml/-/yaml-2.9.0.tgz#78274afd93598a1dfdd6130df6a566defcbf9aa4"
-  integrity sha512-2AvhNX3mb8zd6Zy7INTtSpl1F15HW6Wnqj0srWlkKLcpYl/gMIMJiyuGq2KeI2YFxUPjdlB+3Lc10seMLtL4cA==
+yaml@2.9.1:
+  version "2.9.1"
+  resolved "https://registry.yarnpkg.com/yaml/-/yaml-2.9.1.tgz#c16233fb31944e705cfefaff38795587f57588ce"
+  integrity sha512-3NxN8+78OdzbT7C/WjGsyfPAtJaN3FNDsWxv7Y7mcDsT/oOmgW8BpyQQFFBnvZE3j9Y2Sdz1ULFLezL7Eb2yFw==
 
 yargs-parser@^21.1.1:
   version "21.1.1"
