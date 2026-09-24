@@ -898,15 +898,15 @@
   dependencies:
     cluster-key-slot "1.1.2"
 
-"@renovatebot/detect-tools@4.0.17":
-  version "4.0.17"
-  resolved "https://registry.yarnpkg.com/@renovatebot/detect-tools/-/detect-tools-4.0.17.tgz#8505b368ceefaf15e13a13287a99fc872b1b390b"
-  integrity sha512-tSMsEDAOLZ6RrO0EMziYli0lUPnKy1xLWlxe1XrylKMsgQSXk2qKFXHVV8KRLIIs4H8jnDuZ6pNWygWTKG456A==
+"@renovatebot/detect-tools@4.0.19":
+  version "4.0.19"
+  resolved "https://registry.yarnpkg.com/@renovatebot/detect-tools/-/detect-tools-4.0.19.tgz#ad17cafe618de0033f33dd41f63b022bb16d515b"
+  integrity sha512-FEQQQwSq1wQcySnanelF8g89QAjnhC9OqZcuICTrq31jywJBZGbWBFoeQArewc6vQFNl6K0DimGU1VkTxgFo7Q==
   dependencies:
     fs-extra "^11.4.0"
     toml-eslint-parser "^1.0.3"
     upath "^3.0.8"
-    zod "^4.6.2"
+    zod "^4.6.4"
 
 "@renovatebot/good-enough-parser@2.0.1":
   version "2.0.1"
@@ -3568,10 +3568,10 @@ p-locate@^6.0.0:
   dependencies:
     p-limit "^4.0.0"
 
-p-map@7.0.7, p-map@^7.0.2:
-  version "7.0.7"
-  resolved "https://registry.yarnpkg.com/p-map/-/p-map-7.0.7.tgz#a82175dd690468a930b9ae45c2b9829c5bf60fa3"
-  integrity sha512-VaWRu2i4FJNRtiRWCuuQRgfQ1B7a6+gMSrO+3j0EQi/k0ULfS9kosRxGoiqwzIjZTDI02tGfk5mXXltLg6QtfQ==
+p-map@7.0.8, p-map@^7.0.2:
+  version "7.0.8"
+  resolved "https://registry.yarnpkg.com/p-map/-/p-map-7.0.8.tgz#e2ce27eff78cd934a78908a3cede58330a3a5543"
+  integrity sha512-MitaVsCuCFIvOLLPIU7NnfrZvS9H9h7kwMUkDo+T2pEISaJD48IV9S8iIdXB7PsvvdxyYcsSTTrr90XKsbulNw==
 
 p-map@^2.0.0:
   version "2.1.0"
@@ -3826,10 +3826,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@^44.103.3:
-  version "44.103.3"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-44.103.3.tgz#2c35d074696b027920fb11b360ba317482918cdf"
-  integrity sha512-PqauesudLvJWCcgZk58wuT9nwXrh5UZiszkdNQe8av9szEXt67obH3aWQYx3ICK+kmm98Ha3EQQWyukD/eeNzA==
+renovate@^44.104.0:
+  version "44.104.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-44.104.0.tgz#e2bc2e50242511a4041c53672626d689dc6bf5b2"
+  integrity sha512-5c6RwxWDPbCld5Idac9gReDRSCwQd0MAGdSbRV5BX1jmabo1IowsM5V3KbqDxH2CR8xBfiJMMy0JiBCMwF1NCQ==
   dependencies:
     "@aws-sdk/client-codecommit" "3.1117.0"
     "@aws-sdk/client-ec2" "3.1117.0"
@@ -3862,7 +3862,7 @@ renovate@^44.103.3:
     "@pnpm/parse-overrides" "1001.0.4"
     "@qnighy/marshal" "0.1.3"
     "@redis/client" "6.2.1"
-    "@renovatebot/detect-tools" "4.0.17"
+    "@renovatebot/detect-tools" "4.0.19"
     "@renovatebot/good-enough-parser" "2.0.1"
     "@renovatebot/osv-offline" "3.0.11"
     "@renovatebot/pep440" "5.0.1"
@@ -3924,7 +3924,7 @@ renovate@^44.103.3:
     neotraverse "1.0.1"
     node-html-parser "9.0.4"
     p-all "5.0.1"
-    p-map "7.0.7"
+    p-map "7.0.8"
     p-queue "9.3.3"
     p-throttle "8.1.1"
     parse-link-header "2.0.0"
@@ -3953,7 +3953,7 @@ renovate@^44.103.3:
     xmldoc "3.0.0"
     yaml "2.9.1"
     yauzl "3.4.0"
-    zod "4.6.2"
+    zod "4.6.4"
   optionalDependencies:
     openpgp "6.3.1"
     re2 "1.26.1"
@@ -4593,12 +4593,12 @@ yocto-queue@^1.0.0:
   resolved "https://registry.yarnpkg.com/yocto-queue/-/yocto-queue-1.2.1.tgz#36d7c4739f775b3cbc28e6136e21aa057adec418"
   integrity sha512-AyeEbWOu/TAXdxlV9wmGcR0+yh2j3vYPGOECcIj2S7MkrLyC7ne+oye2BKTItt0ii2PHk4cDy+95+LshzbXnGg==
 
-zod@4.6.2:
-  version "4.6.2"
-  resolved "https://registry.yarnpkg.com/zod/-/zod-4.6.2.tgz#91b2ce79ec994eaa42675499166587d3d223c961"
-  integrity sha512-lh5RCAGFa1Cm2hjtNwLQhSs/AsqdWnTQaBER9fEwN/88pSh7KOtJavtBx/0VlkN/uFd61SwYmljLMDAsHlvzBQ==
+zod@4.6.4:
+  version "4.6.4"
+  resolved "https://registry.yarnpkg.com/zod/-/zod-4.6.4.tgz#1466178e4d8f9cedac31d093ccb7a1f0f97c99dc"
+  integrity sha512-AXSD6hvGdvRjajG/l1cC+d6IrhH+sjmPKtYeQdJIK8MFJl3LyClzS+o/YsVC+zQZPupAaeH5skwwm8YqYH7BqA==
 
-zod@^4.6.2:
+zod@^4.6.4:
   version "4.6.5"
   resolved "https://registry.yarnpkg.com/zod/-/zod-4.6.5.tgz#e3af3edbdc260239c52f73caad05dbbffe6e82cd"
   integrity sha512-v5l/aFXZQeai4awLbOpSoHecE9UiMrnfx75tEXLjNonXVARxQ5mOeipTjROUchszUNCqnE+hqAMujRsRHsut2Q==
