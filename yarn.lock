@@ -898,15 +898,15 @@
   dependencies:
     cluster-key-slot "1.1.2"
 
-"@renovatebot/detect-tools@4.0.19":
-  version "4.0.19"
-  resolved "https://registry.yarnpkg.com/@renovatebot/detect-tools/-/detect-tools-4.0.19.tgz#ad17cafe618de0033f33dd41f63b022bb16d515b"
-  integrity sha512-FEQQQwSq1wQcySnanelF8g89QAjnhC9OqZcuICTrq31jywJBZGbWBFoeQArewc6vQFNl6K0DimGU1VkTxgFo7Q==
+"@renovatebot/detect-tools@4.0.20":
+  version "4.0.20"
+  resolved "https://registry.yarnpkg.com/@renovatebot/detect-tools/-/detect-tools-4.0.20.tgz#454e9d6b31996291a7c69ed95409e3c8414ac878"
+  integrity sha512-hPIbS6EyL/Sy9Bcv3nO6szMDNWsdkCtbaZpJN4EtL93CiRp3N+6DJmNkr6wm6UnNuyaI1CpUzFjPeeTp2jMx5A==
   dependencies:
     fs-extra "^11.4.0"
     toml-eslint-parser "^1.0.3"
     upath "^3.0.8"
-    zod "^4.6.4"
+    zod "^4.6.5"
 
 "@renovatebot/good-enough-parser@2.0.1":
   version "2.0.1"
@@ -1380,13 +1380,13 @@ aws4@1.13.2:
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.13.2.tgz#0aa167216965ac9474ccfa83892cfb6b3e1e52ef"
   integrity sha512-lHe62zvbTB5eEABUVi/AwVh0ZKY9rMMDhmm+eeyuuUQbQ3+J+fONVQOZyj+DdrvD4BY33uYniyRJ4UJIaSKAfw==
 
-azure-devops-node-api@17.0.0:
-  version "17.0.0"
-  resolved "https://registry.yarnpkg.com/azure-devops-node-api/-/azure-devops-node-api-17.0.0.tgz#59380a7d54b13d5609b6fcb483d663b0a12fa9b1"
-  integrity sha512-Ej/C91R56m98p99B6RoePnCsWH2NEME1a7rYE7WWyX8AMuIILEDFyVlwRypfHOSJTTRJZVHkXISkPDqs6To/HQ==
+azure-devops-node-api@17.0.1:
+  version "17.0.1"
+  resolved "https://registry.yarnpkg.com/azure-devops-node-api/-/azure-devops-node-api-17.0.1.tgz#ca3109a9db9e20fc9e14faeec1ed664eb8a567e8"
+  integrity sha512-ilMGKj00R8DWR4xMUZ2XwFMhNW3eVc339loDXzoHegf4qGHMR50MC1NKtHQU2yC0SwgBQaqpJgnOw/Uz8AViig==
   dependencies:
     tunnel "0.0.6"
-    typed-rest-client "3.1.0"
+    typed-rest-client "3.1.2"
 
 backslash@^0.2.0:
   version "0.2.0"
@@ -3733,10 +3733,10 @@ punycode@2.3.1:
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.3.1.tgz#027422e2faec0b25e1549c3e1bd8309b9133b6e5"
   integrity sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==
 
-qs@6.15.3:
-  version "6.15.3"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.15.3.tgz#76852132a58ed5c7c0ef67e4441b9bb5d6061b3b"
-  integrity sha512-O9gl3zCl5h5blw1KGUzQKhA5oUXSl8rwUIM5o0S3nCXMliSvy5Dzx7/DJcI+SwgICv+IneSZwhBh1oSyEHA71A==
+qs@^6.16.0:
+  version "6.16.0"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.16.0.tgz#c22c723a28a920f3aacdce8289fabd43eccb79fd"
+  integrity sha512-h6fhOIaRrID2CbEY2fqs+7t+UXZo+MLAnU5gRIq85uFtdiUPCdsApMlHhXogKVM4HM2DVbIjGNTTYH2OcmP1vA==
   dependencies:
     es-define-property "^1.0.1"
     side-channel "^1.1.1"
@@ -3826,10 +3826,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@^44.104.0:
-  version "44.104.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-44.104.0.tgz#e2bc2e50242511a4041c53672626d689dc6bf5b2"
-  integrity sha512-5c6RwxWDPbCld5Idac9gReDRSCwQd0MAGdSbRV5BX1jmabo1IowsM5V3KbqDxH2CR8xBfiJMMy0JiBCMwF1NCQ==
+renovate@^44.106.0:
+  version "44.106.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-44.106.0.tgz#45b586e8523a33d889047df6d99bf53a34859c06"
+  integrity sha512-EQeGyL7W2u3LkVF396qJNp2AiKvUOK8lvPyX37ehQYa8g+XHNMeIF/RyfM2pwtm3bKnY9jWCGFz62EMCEQPrsw==
   dependencies:
     "@aws-sdk/client-codecommit" "3.1117.0"
     "@aws-sdk/client-ec2" "3.1117.0"
@@ -3862,7 +3862,7 @@ renovate@^44.104.0:
     "@pnpm/parse-overrides" "1001.0.4"
     "@qnighy/marshal" "0.1.3"
     "@redis/client" "6.2.1"
-    "@renovatebot/detect-tools" "4.0.19"
+    "@renovatebot/detect-tools" "4.0.20"
     "@renovatebot/good-enough-parser" "2.0.1"
     "@renovatebot/osv-offline" "3.0.11"
     "@renovatebot/pep440" "5.0.1"
@@ -3876,7 +3876,7 @@ renovate@^44.104.0:
     agentkeepalive "4.6.0"
     async-mutex "0.5.0"
     aws4 "1.13.2"
-    azure-devops-node-api "17.0.0"
+    azure-devops-node-api "17.0.1"
     bunyan "1.8.15"
     cacache "20.0.4"
     changelog-filename-regex "2.0.1"
@@ -3953,7 +3953,7 @@ renovate@^44.104.0:
     xmldoc "3.0.0"
     yaml "2.9.1"
     yauzl "3.4.0"
-    zod "4.6.4"
+    zod "4.6.5"
   optionalDependencies:
     openpgp "6.3.1"
     re2 "1.26.1"
@@ -4327,14 +4327,14 @@ type-fest@^5.6.0:
   dependencies:
     tagged-tag "^1.0.0"
 
-typed-rest-client@3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/typed-rest-client/-/typed-rest-client-3.1.0.tgz#1606aed2ec59e75169e604d90fa3d3c0f63742d3"
-  integrity sha512-8fMeur8aKaJw8WsqYUZD4CsUfpMFH3zWlRQigM3KWs406KGjqPMdTBn7RfIpMvPjZ1bH+S8QwG+FK/VY/8ndKg==
+typed-rest-client@3.1.2:
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/typed-rest-client/-/typed-rest-client-3.1.2.tgz#cbd43ddffc1f15a9d006e7277e09b4c7aeece670"
+  integrity sha512-fX2taQCAMhjzILtYoxz8Twc88QKfmhYo56bxs8q5v1Fh0qIw1QkBC/+MSKQXREOnY8Xa9c/kLNehUw0gbCZVqA==
   dependencies:
     des.js "^1.1.0"
     js-md4 "^0.3.2"
-    qs "6.15.3"
+    qs "^6.16.0"
     tunnel "0.0.6"
     underscore "^1.13.8"
 
@@ -4593,12 +4593,7 @@ yocto-queue@^1.0.0:
   resolved "https://registry.yarnpkg.com/yocto-queue/-/yocto-queue-1.2.1.tgz#36d7c4739f775b3cbc28e6136e21aa057adec418"
   integrity sha512-AyeEbWOu/TAXdxlV9wmGcR0+yh2j3vYPGOECcIj2S7MkrLyC7ne+oye2BKTItt0ii2PHk4cDy+95+LshzbXnGg==
 
-zod@4.6.4:
-  version "4.6.4"
-  resolved "https://registry.yarnpkg.com/zod/-/zod-4.6.4.tgz#1466178e4d8f9cedac31d093ccb7a1f0f97c99dc"
-  integrity sha512-AXSD6hvGdvRjajG/l1cC+d6IrhH+sjmPKtYeQdJIK8MFJl3LyClzS+o/YsVC+zQZPupAaeH5skwwm8YqYH7BqA==
-
-zod@^4.6.4:
+zod@4.6.5, zod@^4.6.5:
   version "4.6.5"
   resolved "https://registry.yarnpkg.com/zod/-/zod-4.6.5.tgz#e3af3edbdc260239c52f73caad05dbbffe6e82cd"
   integrity sha512-v5l/aFXZQeai4awLbOpSoHecE9UiMrnfx75tEXLjNonXVARxQ5mOeipTjROUchszUNCqnE+hqAMujRsRHsut2Q==
