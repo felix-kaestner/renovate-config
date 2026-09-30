@@ -2810,10 +2810,10 @@ lowercase-keys@^4.0.1:
   resolved "https://registry.yarnpkg.com/lowercase-keys/-/lowercase-keys-4.0.1.tgz#03f169f2bfc01709582366ede4f58d79ab6e766b"
   integrity sha512-wI9Nui/L8VfADa/cr/7NQruaASk1k23/Uh1khQ02BCVYiiy8F4AhOGnQzJy3Fl/c44GnYSbZHv8g7EcG3kJ1Qg==
 
-lru-cache@11.5.2, lru-cache@^11.0.0, lru-cache@^11.1.0:
-  version "11.5.2"
-  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-11.5.2.tgz#00e16665c90c620fba14a3c368732a976493f760"
-  integrity sha512-4pfM1Ff0x50o0tQwb5ucw/RzNyD0/YJME6IVcStalZuMWxdt3sR3huStTtxz4PUmvZfRguvDejasvQ2kifR11g==
+lru-cache@11.5.3, lru-cache@^11.0.0, lru-cache@^11.1.0:
+  version "11.5.3"
+  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-11.5.3.tgz#a7767b4034e35269562d2b9da2b185b5df70c421"
+  integrity sha512-U4N8FgzmWxc8k1VH8Kr6lQg18U7Fjvby6wXHVRX/ZZ7IwWbRMgrRbP0Wrb5q5NVinryp4SQampHKdvtecItxUg==
 
 luxon@3.7.2, luxon@^3.7.2:
   version "3.7.2"
@@ -3832,10 +3832,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@^44.115.9:
-  version "44.115.9"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-44.115.9.tgz#636a20c992ef4c47cdb0204c9e60efd752b2d669"
-  integrity sha512-33Lall/wu7Dwkcn1/k3yI/ILZ77sjhL1Bx+seCNhPjcvUa9vC6av21oizQy59WYOYGsHWcnswjbjIVe7054ipQ==
+renovate@^44.115.10:
+  version "44.115.10"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-44.115.10.tgz#4d8a74f12c141307244eab8d767e1e49c576778f"
+  integrity sha512-dLS+K+9//q5OKHIbvucnRhqYtA9Na9JhNfktoNwJf1aJNkdtSy7G2+ZwVQBwpMWjg9wzE5JLdcir3OK+VMMKzA==
   dependencies:
     "@aws-sdk/client-codecommit" "3.1117.0"
     "@aws-sdk/client-ec2" "3.1117.0"
@@ -3920,7 +3920,7 @@ renovate@^44.115.9:
     jsonata "2.2.1"
     jsonc-weaver "0.3.1"
     klona "2.0.6"
-    lru-cache "11.5.2"
+    lru-cache "11.5.3"
     luxon "3.7.2"
     markdown-it "15.0.2"
     markdown-table "3.0.4"
