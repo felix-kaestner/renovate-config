@@ -2564,10 +2564,10 @@ ini@6.0.0:
   resolved "https://registry.yarnpkg.com/ini/-/ini-6.0.0.tgz#efc7642b276f6a37d22fdf56ef50889d7146bf30"
   integrity sha512-IBTdIkzZNOpqm7q3dRqJvMaldXjDHWkEDfrwGEQTs5eaQMWV+djAhR+wahyNNMAa+qpbDUhBMVt4ZKNwpPm7xQ==
 
-install-artifact-from-github@^1.7.0:
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/install-artifact-from-github/-/install-artifact-from-github-1.7.0.tgz#986a8c404dc67bf62315517c993322a31f25ad4a"
-  integrity sha512-qAb91yAKVF9rFY4rVP21ZtYUyCScxAFt9udwzVWNLBE1pQcdQeB2gd1HlNPcQNYCzCDvJ/QJQPuWQ6aTmSlU8g==
+install-artifact-from-github@^1.8.1:
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/install-artifact-from-github/-/install-artifact-from-github-1.8.1.tgz#c3f001ca8b44592fb06de592e1bb67f09b72d10e"
+  integrity sha512-lV8dRlR/3i6Tk4X9agaqhMRY6ScVU3YOuKse0VRnP9+rUWfImeCjo1TeAefXEauNVF3a8QgOb6jW3CZJetVopw==
 
 is-arrayish@^0.2.1:
   version "0.2.1"
@@ -3410,10 +3410,10 @@ nan@^2.14.0:
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.15.0.tgz#3f34a473ff18e15c1b5626b62903b5ad6e665fee"
   integrity sha512-8ZtvEnA2c5aYCZYd1cvgdnU6cqwixRoYg70xPLWUws5ORTa/lnw+u4amixRS/Ac5U5mQVgp9pnlSUnbNWFaWZQ==
 
-nan@^2.28.0:
-  version "2.28.0"
-  resolved "https://registry.yarnpkg.com/nan/-/nan-2.28.0.tgz#126717fd359d5a03d3edf7c44e6ce9b707fb57f5"
-  integrity sha512-fTsDz99OTq2sVePhGdp4qQhggZFtKr64ZNVyVajRKtMOkJxYekplBh577PiJB12v/D3s2E5cGtOI45LWp6rnLQ==
+nan@^2.29.0:
+  version "2.29.0"
+  resolved "https://registry.yarnpkg.com/nan/-/nan-2.29.0.tgz#95bace50f153289240573c08401acc63a30659d4"
+  integrity sha512-GlGk3HIvitbvs+LT3g6XUP1kpirKNvmDFwF/bmo6XNWSb/eYEs/O4bfgIEIXCZ+lIOTS5xNwDvSGMw6FJdAhtA==
 
 ncp@~2.0.0:
   version "2.0.0"
@@ -3444,10 +3444,10 @@ node-fetch@^3.3.2:
     fetch-blob "^3.1.4"
     formdata-polyfill "^4.0.10"
 
-node-gyp@^13.0.1:
-  version "13.0.1"
-  resolved "https://registry.yarnpkg.com/node-gyp/-/node-gyp-13.0.1.tgz#ac7be7930de3ab3acaa8bd6b0c06d177d623f10e"
-  integrity sha512-piOr0S10qy5THB+q5BdqkoOx65XL/tjTMUAit3vciPNp+snTOBnGunWH1Rz7XZUxf2T9uFrfT/Ty4+aC3yPeyg==
+node-gyp@^13.0.2:
+  version "13.1.0"
+  resolved "https://registry.yarnpkg.com/node-gyp/-/node-gyp-13.1.0.tgz#27a4e6715a8f03d8140ba707d163b532e06b7ee7"
+  integrity sha512-FpNzOLFACKG0oRBYbZ5WOeWD1EqRTIWX90MaRIWTO18lVYPx8fqIjrdS3pihjnCkSmgop6zVGkSqg1vXZLksuw==
   dependencies:
     env-paths "^2.2.0"
     exponential-backoff "^3.1.1"
@@ -3455,7 +3455,7 @@ node-gyp@^13.0.1:
     nopt "^10.0.0"
     proc-log "^7.0.0"
     semver "^7.3.5"
-    tar "^7.5.4"
+    tar "^7.5.7"
     tinyglobby "^0.2.12"
     undici "^8.4.1"
     which "^7.0.0"
@@ -3757,14 +3757,14 @@ quick-lru@^5.1.1:
   resolved "https://registry.yarnpkg.com/quick-lru/-/quick-lru-5.1.1.tgz#366493e6b3e42a3a6885e2e99d18f80fb7a8c932"
   integrity sha512-WuyALRjWPDGtt/wzJiadO5AXY+8hZ80hVpe6MyivgraREW751X3SbhRvG3eLKOYN+8VEvqLcf3wdnt44Z4S4SA==
 
-re2@1.26.1:
-  version "1.26.1"
-  resolved "https://registry.yarnpkg.com/re2/-/re2-1.26.1.tgz#3a39db1d869f6cde8bada7831d1f5c1cc3e73c87"
-  integrity sha512-oi79a4h6EO3PAwNsDMWgeCcsRGQEUa52DIgOiFTZGDEZocEXG9h+oXy0qZqndo47huUeJuVWSoOJIEhOupqOcg==
+re2@1.27.0:
+  version "1.27.0"
+  resolved "https://registry.yarnpkg.com/re2/-/re2-1.27.0.tgz#e1ae00e3156e34c2ca845850e1799d0d3b0bc805"
+  integrity sha512-z5Vascmj7lQbU3YdfYJUDkBGGTnoAObcVW/CSbpI3WbVb1vZQsSzSWcGkfKU0JKrrGfPZwPr8EVHwYXKQKLVXw==
   dependencies:
-    install-artifact-from-github "^1.7.0"
-    nan "^2.28.0"
-    node-gyp "^13.0.1"
+    install-artifact-from-github "^1.8.1"
+    nan "^2.29.0"
+    node-gyp "^13.0.2"
 
 read-yaml-file@^2.1.0:
   version "2.1.0"
@@ -3832,10 +3832,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@^44.132.2:
-  version "44.132.2"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-44.132.2.tgz#848a87af52f4578b628e8802012354a36dde3d98"
-  integrity sha512-RD5+d1UPhvTj55u6wbZUY/Fhb2LRkYfo9ZqymjH8XeiKub37aNdDNJPgksnOjsyHPMzLMh6DeMTrEBRnQzBgvA==
+renovate@^44.132.5:
+  version "44.132.5"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-44.132.5.tgz#cdaf38f4a87d293432cfd51d4c79e41f04ba0323"
+  integrity sha512-3bCOC/3fz5ILyaRyOQU5WYmxRMlJsDyRe1piozt14lBeQL0phqD3ixXpH9GtWjBE0zxp7jbzMvWReflHhg7f5A==
   dependencies:
     "@aws-sdk/client-codecommit" "3.1139.0"
     "@aws-sdk/client-ec2" "3.1139.0"
@@ -3962,7 +3962,7 @@ renovate@^44.132.2:
     zod "4.6.5"
   optionalDependencies:
     openpgp "6.3.2"
-    re2 "1.26.1"
+    re2 "1.27.0"
 
 require-directory@^2.1.1:
   version "2.1.1"
@@ -4251,7 +4251,7 @@ tagged-tag@^1.0.0:
   resolved "https://registry.yarnpkg.com/tagged-tag/-/tagged-tag-1.0.0.tgz#a0b5917c2864cba54841495abfa3f6b13edcf4d6"
   integrity sha512-yEFYrVhod+hdNyx7g5Bnkkb0G6si8HJurOoOEgC8B/O0uXLHlaey/65KRv6cuWBNhBgHKAROVpc7QyYqE5gFng==
 
-tar@7.5.22, tar@^7.5.3, tar@^7.5.4:
+tar@7.5.22, tar@^7.5.3, tar@^7.5.7:
   version "7.5.22"
   resolved "https://registry.yarnpkg.com/tar/-/tar-7.5.22.tgz#a696f998136e71487dc3f869a85bba2c67971ba9"
   integrity sha512-MFO/QzvtAOmJbkhOaCTvbGcFN9L9b+JunIsDwaKljSOdcLMea3NJ1k9Usz/rjdfSXTq4dfzfeS7W4p4YOAAHeA==
