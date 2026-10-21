@@ -901,10 +901,10 @@
   resolved "https://registry.yarnpkg.com/@redis/client/-/client-6.3.0.tgz#b8501b8d39eb1d4d9d2d1c6bd75cf441bea259b2"
   integrity sha512-fHrjwGCBvAANGi+TuRuwKi83sIOzgHr8eh+Uf48w3fSX7Hhrz174NrWqfJhAC2vnN0d/tfaZpdr6+o6JC3QHwg==
 
-"@renovatebot/base-image@13.132.1":
-  version "13.132.1"
-  resolved "https://registry.yarnpkg.com/@renovatebot/base-image/-/base-image-13.132.1.tgz#7eb39a28c8e4d23154f9dda872cc6e5848d12123"
-  integrity sha512-g5lqE8CeiO6pJouhIb/LzdDoptE0Ws+kigHMz/Enejs5QviLJPGXQmdYKnP953Gr5b9Y+8WLWH75GQ0Cun3UeA==
+"@renovatebot/base-image@13.133.0":
+  version "13.133.0"
+  resolved "https://registry.yarnpkg.com/@renovatebot/base-image/-/base-image-13.133.0.tgz#77f8735a532bd5453618f456cbfffd665f80a602"
+  integrity sha512-+rdKTOa8k0p22Y/OCGCWCzaTsc6EI/SisCjMUUTvSZRPwl1R3AISmC5df5N9RZAT40YTorE5kCNM1ZLzhdFIFQ==
   dependencies:
     "@containerbase/base" "14.42.0"
 
@@ -2815,7 +2815,7 @@ lowercase-keys@^4.0.1:
   resolved "https://registry.yarnpkg.com/lowercase-keys/-/lowercase-keys-4.0.1.tgz#03f169f2bfc01709582366ede4f58d79ab6e766b"
   integrity sha512-wI9Nui/L8VfADa/cr/7NQruaASk1k23/Uh1khQ02BCVYiiy8F4AhOGnQzJy3Fl/c44GnYSbZHv8g7EcG3kJ1Qg==
 
-lru-cache@11.5.3, lru-cache@^11.0.0, lru-cache@^11.1.0:
+lru-cache@^11.0.0, lru-cache@^11.1.0:
   version "11.5.3"
   resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-11.5.3.tgz#a7767b4034e35269562d2b9da2b185b5df70c421"
   integrity sha512-U4N8FgzmWxc8k1VH8Kr6lQg18U7Fjvby6wXHVRX/ZZ7IwWbRMgrRbP0Wrb5q5NVinryp4SQampHKdvtecItxUg==
@@ -3685,10 +3685,10 @@ picomatch@^4.0.2:
   resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-4.0.4.tgz#fd6f5e00a143086e074dffe4c924b8fb293b0589"
   integrity sha512-QP88BAKvMam/3NxH6vj2o21R6MjxZUAd6nlwAS/pnGvN9IVLocLHxGYIzFhg6fUQ+5th6P4dv4eW9jX3DSIj7A==
 
-prettier@3.9.9:
-  version "3.9.9"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.9.9.tgz#09b826918c91cd4cbc80e0cbd1d2a922ff04f233"
-  integrity sha512-Z/CJHIkdujO/OtN7nXUii0Rf3VT5SRuhjBA82Xvu2XhBUgX3nhP67T0LHceBdQLex7OOFGTox+Q5Yg8Jk2Qivg==
+prettier@3.9.10:
+  version "3.9.10"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.9.10.tgz#ac378e432f1a7381518f2e080816bbaefa38d585"
+  integrity sha512-skGHTH1Yb9QvaTC4hWnRTzEYtCpApF0UMBPz+t/0ZPzP8ihefo/btKd+QA7pUE0fEwA1SbS/NmhyEcstdXOIdA==
 
 pretty-ms@^9.3.1:
   version "9.3.1"
@@ -3842,10 +3842,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@^44.165.1:
-  version "44.165.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-44.165.1.tgz#cf30f5c00871b43e7b48146ef9f508ee155d9a68"
-  integrity sha512-3UMIjDp9FDKBJigxFO27O2rdLdQaXjNpOXQM5xXYYbRsJPIM1wfhbudXflroFHr3Q/oNrEZE3U9cAisbwWlnEA==
+renovate@^44.166.0:
+  version "44.166.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-44.166.0.tgz#983a29d508dae77b99c7c7a916b9fd2c896935b1"
+  integrity sha512-ZKvUoZluEjYE09P/TW3UsoNSNHv4lZi/H+sQpl7sgy/yvASCfhBsy79sWVt/CwCxyfITskXjZlyCEdoHrepLEA==
   dependencies:
     "@aws-sdk/client-codecommit" "3.1139.0"
     "@aws-sdk/client-ec2" "3.1139.0"
@@ -3878,7 +3878,7 @@ renovate@^44.165.1:
     "@pnpm/parse-overrides" "1001.0.4"
     "@qnighy/marshal" "0.1.3"
     "@redis/client" "6.3.0"
-    "@renovatebot/base-image" "13.132.1"
+    "@renovatebot/base-image" "13.133.0"
     "@renovatebot/detect-tools" "4.0.21"
     "@renovatebot/good-enough-parser" "2.0.1"
     "@renovatebot/osv-offline" "3.0.12"
@@ -3931,7 +3931,6 @@ renovate@^44.165.1:
     jsonata "2.2.1"
     jsonc-weaver "0.3.1"
     klona "2.0.6"
-    lru-cache "11.5.3"
     luxon "3.7.2"
     markdown-it "15.0.2"
     markdown-table "3.0.4"
@@ -3945,7 +3944,7 @@ renovate@^44.165.1:
     p-queue "9.3.3"
     p-throttle "8.1.1"
     parse-link-header "2.0.0"
-    prettier "3.9.9"
+    prettier "3.9.10"
     protobufjs "8.8.0"
     punycode "2.3.1"
     remark "15.0.1"
@@ -3963,7 +3962,6 @@ renovate@^44.165.1:
     strip-json-comments "5.0.3"
     tar "7.5.22"
     toml-eslint-parser "1.0.3"
-    tslib "2.8.1"
     upath "3.0.8"
     url-join "5.0.0"
     validate-npm-package-name "7.0.2"
@@ -4317,7 +4315,7 @@ trough@^2.0.0:
   resolved "https://registry.yarnpkg.com/trough/-/trough-2.2.0.tgz#94a60bd6bd375c152c1df911a4b11d5b0256f50f"
   integrity sha512-tmMpK00BjZiUyVyvrBK7knerNgmgvcV/KLVyuma/SC+TQN167GrMRciANTz09+k3zW8L8t60jWO1GpfkZdjTaw==
 
-tslib@2.8.1, tslib@^2.3.1, tslib@^2.4.0, tslib@^2.6.2:
+tslib@^2.3.1, tslib@^2.4.0, tslib@^2.6.2:
   version "2.8.1"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.8.1.tgz#612efe4ed235d567e8aba5f2a5fab70280ade83f"
   integrity sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==
