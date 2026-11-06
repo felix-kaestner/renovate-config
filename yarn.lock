@@ -403,10 +403,17 @@
   dependencies:
     fs-extra "11.3.0"
 
-"@containerbase/base@14.57.1":
-  version "14.57.1"
-  resolved "https://registry.yarnpkg.com/@containerbase/base/-/base-14.57.1.tgz#1879474cfdd76ddee1d7c143e45815241f799565"
-  integrity sha512-TaewVUnV5FM5VouI6jQeQNix83GWStGNjYTKjrurzouveI15XeVuMtCZCvlf6/aFQHNQfinhRHnzEKw71HUDTw==
+"@containerbase/base@14.61.0":
+  version "14.61.0"
+  resolved "https://registry.yarnpkg.com/@containerbase/base/-/base-14.61.0.tgz#82bcfb16ddad81285643d8a41474d77e396fd3c2"
+  integrity sha512-xzfBD+2gVqU9reHELY5WbdCmDUCqjnPvCscG5/6iKnos7Jxg8M0E3rEdiYUMOHLWoww1+hZZFj5vHarjttTUTg==
+  dependencies:
+    semver "^7.8.5"
+
+"@containerbase/base@^14.61.0":
+  version "14.66.3"
+  resolved "https://registry.yarnpkg.com/@containerbase/base/-/base-14.66.3.tgz#7da271f53c83c58dbabd5e06c7e0302714b269fe"
+  integrity sha512-2SvZfmJKOw2gHKtIQcrBb+4dMb/sweh0nzdfyZ1ulCERoqRyeaX2BtFUf9aekY4KOYucehGIZFCTMMIic85HFg==
   dependencies:
     semver "^7.8.5"
 
@@ -866,17 +873,17 @@
   resolved "https://registry.yarnpkg.com/@redis/client/-/client-6.3.0.tgz#b8501b8d39eb1d4d9d2d1c6bd75cf441bea259b2"
   integrity sha512-fHrjwGCBvAANGi+TuRuwKi83sIOzgHr8eh+Uf48w3fSX7Hhrz174NrWqfJhAC2vnN0d/tfaZpdr6+o6JC3QHwg==
 
-"@renovatebot/base-image@13.149.0":
-  version "13.149.0"
-  resolved "https://registry.yarnpkg.com/@renovatebot/base-image/-/base-image-13.149.0.tgz#1a3f74d9c200fdadf8645831fbb835f921034c39"
-  integrity sha512-xrP1E/u2ch5QnkpZMg8HE1ZNOaS/MmV3j4OAQlM+C8mX/o/yx9u2d11MQVEXVj811+PdXPlbm5g05Re4RMxuxA==
+"@renovatebot/base-image@13.154.0":
+  version "13.154.0"
+  resolved "https://registry.yarnpkg.com/@renovatebot/base-image/-/base-image-13.154.0.tgz#eb4bb8b5c055600968e55c270749a626b2b0abfb"
+  integrity sha512-Z90F5Q5nhHWUi7U/M+n6To+Y3tcrFWJPvFkBOPfybmYNhAEKfI99PtlCvuHz/IeEemEU/DND8n9GeHQv9sDM2w==
   dependencies:
-    "@containerbase/base" "14.57.1"
+    "@containerbase/base" "14.61.0"
 
-"@renovatebot/detect-tools@4.0.23":
-  version "4.0.23"
-  resolved "https://registry.yarnpkg.com/@renovatebot/detect-tools/-/detect-tools-4.0.23.tgz#7ff60ef966072c24f93cafad2395adf430e2ff4d"
-  integrity sha512-+mZxeioZUc1UAs2NO02x5RcPQdvX4B4eJsrFYSIVT8yRdtsc9OV8L/KeYnKatWFd8BxbOyr5mS8I8JbolOPVqg==
+"@renovatebot/detect-tools@5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@renovatebot/detect-tools/-/detect-tools-5.0.0.tgz#2e55b19dd9f1d7ea57e427c369a6dca7cd009768"
+  integrity sha512-auJDVBrP3LtjjlZ7bLe1G2SXxAOpY77DmM56UacCQL9RTCfIj6wSEEUtTZIUMZemSc3+sCOVYwlMlhyzBMZ3wA==
   dependencies:
     fs-extra "^11.4.1"
     toml-eslint-parser "^1.0.3"
@@ -893,40 +900,40 @@
     klona "2.0.6"
     moo "0.5.3"
 
-"@renovatebot/osv-offline-db@4.4.0":
-  version "4.4.0"
-  resolved "https://registry.yarnpkg.com/@renovatebot/osv-offline-db/-/osv-offline-db-4.4.0.tgz#6777194e32aa4c2c7aaf80a7be889979094f8268"
-  integrity sha512-LsAsuAvLXP+naIkJ8ac2RWLo+KV20C18zP4Hl9ygM0BxAJNbCTMs8qvSelYHFsLItAwY4lEkITgBgJCHw86Lfw==
+"@renovatebot/osv-offline-db@4.5.9":
+  version "4.5.9"
+  resolved "https://registry.yarnpkg.com/@renovatebot/osv-offline-db/-/osv-offline-db-4.5.9.tgz#ee437cfc89ae4b7cd07e24b9201bfe2537a22bb1"
+  integrity sha512-I9Rvo9YTSuQsdgYwEUHLROpnHfRbOS4Iiajb8wXVtkSwe0T30baLm0FoLN07tfVvKVoWXHMOjvTldqtClUpCGw==
   dependencies:
+    "@containerbase/base" "^14.61.0"
     debug "^4.4.3"
 
-"@renovatebot/osv-offline@4.4.0":
-  version "4.4.0"
-  resolved "https://registry.yarnpkg.com/@renovatebot/osv-offline/-/osv-offline-4.4.0.tgz#fd1042b5ef17499b733886bdbbe1adfc82216d91"
-  integrity sha512-fEW7adrcSKve1XslE9gOWvyfNVS1zBMrEwJIlgBhkzM5hgTY2RVbqbP9GZSfgzXlhdn2ENKSaGeAgXMrVxqWxA==
+"@renovatebot/osv-offline@4.5.9":
+  version "4.5.9"
+  resolved "https://registry.yarnpkg.com/@renovatebot/osv-offline/-/osv-offline-4.5.9.tgz#60b2f18f5e751928910b0c690d413c3b6bfbac6f"
+  integrity sha512-8uHcjca9ZYYAkPW23vrfmxHHE6XGZhQZXBkTfxSqLA622Yhr7+RPtkTbAQtJN2gRHO9mk3oU+IAfNPSjnVZh+Q==
   dependencies:
-    "@renovatebot/osv-offline-db" "4.4.0"
-    debug "^4.4.3"
+    "@renovatebot/osv-offline-db" "4.5.9"
     fs-extra "^11.4.1"
     got "^15.1.0"
     luxon "^3.7.2"
     ms "^2.1.3"
     yauzl "^3.4.0"
 
-"@renovatebot/pep440@5.0.1":
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/@renovatebot/pep440/-/pep440-5.0.1.tgz#f8308f410c8d0ee869b3dbd8b326494217307a74"
-  integrity sha512-KmMz+X68YvrS6aN6TJWtDiH8aCIL2Igcvceh17STHxMUN3KxXsC24COoOXjMOl/Gb+okBwwduMm8PY/WY/0Cpg==
+"@renovatebot/pep440@6.0.0":
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/@renovatebot/pep440/-/pep440-6.0.0.tgz#6e191b5c38e11b9abf2c95b341114263f3185852"
+  integrity sha512-L/HtOYInkZGLJCe9h/gpsm2Gig0JWzyvWajrEVK+pP6BGfRl1eFzg7jyVcis7tmht7hvpau/+pMzF60geiLq6w==
 
 "@renovatebot/pgp@2.0.4":
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/@renovatebot/pgp/-/pgp-2.0.4.tgz#0ce98b3e9c7be2af7bb21c4db0b48ea5b73b108d"
   integrity sha512-Hp8wjIruBAzc1qIAumCU3dN3AgX60r+Wop6FrFNwjpg8r2TIR9DXHZxv2SY7wIWel8wbEaM2jzb+hVQDfYUwUQ==
 
-"@renovatebot/ruby-semver@5.0.0":
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/@renovatebot/ruby-semver/-/ruby-semver-5.0.0.tgz#3fb635ed800cb10a4c51c94338ad5a75a1e115f8"
-  integrity sha512-yQgeq4HVV9mh2AJHHlStd//7mD/96lWj8KWB5Szi5YDjPwpvk12Sj3H+Y4waNC3N2D4t5xqbwYYpTHB5KsrSVg==
+"@renovatebot/ruby-semver@6.0.0":
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/@renovatebot/ruby-semver/-/ruby-semver-6.0.0.tgz#a8a59c924f912c4f619f2250a9d55b2900ee58a2"
+  integrity sha512-RGiSBw2vRYu5PnPTAaJR8R/VV86boURoojuohaJJcAZMgRKrpvRLlmUsK5A8WWLMH0JD9dHoYCpXHZdAZFlFTw==
 
 "@sec-ant/readable-stream@^0.4.1":
   version "0.4.1"
@@ -3808,10 +3815,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@^44.199.2:
-  version "44.199.2"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-44.199.2.tgz#b5df03afe7d4e1a825268873be4a2b2e06d99f9b"
-  integrity sha512-pifD6RstfGlxvaQvqJDRkvc6nEXSYdvvs74DsD57dPZ019XoT7Psvf43XQiCPUsFfJXiSkFszAice7euOng5dQ==
+renovate@^44.206.2:
+  version "44.206.2"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-44.206.2.tgz#c5695155676e4e211bea60f4149a484e0ccbb520"
+  integrity sha512-nKaK2sXJQ9XdWeNjC14dLb3aHTIR1DT0mnS95vGkohsQ1V/VFSZ+bLqTlrGXkV7KZKHyuyARf+ybepQ1WZmNGA==
   dependencies:
     "@aws-sdk/client-codecommit" "3.1139.0"
     "@aws-sdk/client-ec2" "3.1139.0"
@@ -3844,13 +3851,13 @@ renovate@^44.199.2:
     "@pnpm/parse-overrides" "1001.0.4"
     "@qnighy/marshal" "0.1.3"
     "@redis/client" "6.3.0"
-    "@renovatebot/base-image" "13.149.0"
-    "@renovatebot/detect-tools" "4.0.23"
+    "@renovatebot/base-image" "13.154.0"
+    "@renovatebot/detect-tools" "5.0.0"
     "@renovatebot/good-enough-parser" "3.0.0"
-    "@renovatebot/osv-offline" "4.4.0"
-    "@renovatebot/pep440" "5.0.1"
+    "@renovatebot/osv-offline" "4.5.9"
+    "@renovatebot/pep440" "6.0.0"
     "@renovatebot/pgp" "2.0.4"
-    "@renovatebot/ruby-semver" "5.0.0"
+    "@renovatebot/ruby-semver" "6.0.0"
     "@sindresorhus/is" "8.1.0"
     "@yarnpkg/core" "4.9.1"
     "@yarnpkg/parsers" "3.1.0"
