@@ -945,10 +945,10 @@
   resolved "https://registry.yarnpkg.com/@simple-git/args-pathspec/-/args-pathspec-1.0.4.tgz#808f3b9eb40c34e8fe215c10a470812090043536"
   integrity sha512-EtMX6XjRWSastG2SdkmSQByPtJ9dx/NIjnHbpQPCYt62j4RmSx5rgLTGpw0YCjF5h191gZOmBfheOT23cRSFdw==
 
-"@simple-git/argv-parser@2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@simple-git/argv-parser/-/argv-parser-2.0.1.tgz#37c5168866b2635179630e372516aebd2690010d"
-  integrity sha512-M++IaVWrN+vYalilOHfwvT2IL3wYZtVEBQpmX6DLSOJLtxbZ+SUeIDE3IiPogzhPACLajwtxfa5rp+ZX1FczzQ==
+"@simple-git/argv-parser@3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@simple-git/argv-parser/-/argv-parser-3.0.0.tgz#d0d7186ee4ba3a131db677057fc65355132cc960"
+  integrity sha512-MhLm6/9J7PiVZghJnaJG4tOc+rTotsSINJkjbUqZA7lYmYklOXdk+d0UZ8Pm8WFcMuxafx3oSUIYYYnPY92GTQ==
   dependencies:
     "@simple-git/args-pathspec" "^1.0.4"
 
@@ -1675,10 +1675,10 @@ croner@10.0.1:
   resolved "https://registry.yarnpkg.com/croner/-/croner-10.0.1.tgz#4eb92806c99539146dbe2f3ee3907e319cb2847a"
   integrity sha512-ixNtAJndqh173VQ4KodSdJEI6nuioBWI0V1ITNKhZZsO0pEMoDxz539T4FTTbSZ/xIOSuDnzxLVRqBVSvPNE2g==
 
-cronstrue@3.39.0:
-  version "3.39.0"
-  resolved "https://registry.yarnpkg.com/cronstrue/-/cronstrue-3.39.0.tgz#ea033099dc92f4c9bca064f1781a469a0466798c"
-  integrity sha512-b5lKTLr5uFJZfkjjGx3k/XIHvi1xKmv1wVmHOC1hVUJCgf8SYX/EoX4SHeJKYPVQRXDVddN78lwhmwtnUbdn7w==
+cronstrue@3.41.0:
+  version "3.41.0"
+  resolved "https://registry.yarnpkg.com/cronstrue/-/cronstrue-3.41.0.tgz#0a6dffa0bbcf4b2696d62a96022f2eb8adea1025"
+  integrity sha512-1B5JJP3vsZbP4NOoz9OboFljpcc+aGg6WBQsyGr/Q0LS7ZYoSH9oimGpEglTGMS4ywwY1aYfr1So2GgfdeXj0w==
 
 cross-spawn@^7.0.3:
   version "7.0.6"
@@ -3799,10 +3799,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@^44.257.9:
-  version "44.257.9"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-44.257.9.tgz#d7715e28037688af0286477154855cc86141de06"
-  integrity sha512-qsIRIO/9k/flPb2nIJJX3YXxMVfQME1VFQChbxUw7NWYXT530ewHGiCqZYnMdQX+wnqu2kSrnpO9yEeeukeEZw==
+renovate@^44.258.3:
+  version "44.258.3"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-44.258.3.tgz#1e2cab86ac744800cf86686448c4d9fcf117e062"
+  integrity sha512-bpxBkPfY8KZGdEgXvzRZMHB7mHQaa0J15t1iEzo+VRXWP8hphAJ3S0ueOTAWNuyZIR9ARGNlxweNKe68N79orw==
   dependencies:
     "@aws-sdk/client-codecommit" "3.1139.0"
     "@aws-sdk/client-ec2" "3.1139.0"
@@ -3858,7 +3858,7 @@ renovate@^44.257.9:
     commander "15.0.0"
     common-tags "1.8.2"
     croner "10.0.1"
-    cronstrue "3.39.0"
+    cronstrue "3.41.0"
     deepmerge "4.3.1"
     dequal "2.0.3"
     detect-indent "7.0.2"
@@ -3913,7 +3913,7 @@ renovate@^44.257.9:
     semver-stable "3.0.0"
     semver-utils "1.1.4"
     shlex "3.0.0"
-    simple-git "4.0.2"
+    simple-git "4.1.0"
     slugify "1.6.9"
     source-map-support "0.5.21"
     strip-json-comments "5.1.0"
@@ -4114,15 +4114,15 @@ signal-exit@^4.1.0:
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-4.1.0.tgz#952188c1cbd546070e2dd20d0f41c0ae0530cb04"
   integrity sha512-bzyZ1e88w9O1iNJbKnOlvYTrWPDl46O1bG0D3XInv+9tkPrxrN8jUUTiFlDkkmKWgn1M6CfIA13SuGqOa9Korw==
 
-simple-git@4.0.2:
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/simple-git/-/simple-git-4.0.2.tgz#3697e35c050699ce88d4203a101e7db8da21acb7"
-  integrity sha512-l0sIsv9VrPwovKELFDBOj/lhmIcbMvxBk2B+hRhsMM4/VL3gKtuZvYnBNixVo+N/0HnqQx2cBdLvxnAbygHpqA==
+simple-git@4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/simple-git/-/simple-git-4.1.0.tgz#60b17c8a6fd223dffac0a7c0ac9c3b2203945dbf"
+  integrity sha512-FZJESy4Vxahk4eOadmRsWF5TjhCrfpDP563j8jAMbMEi/phIHPDgzN/tDkRIZ2GyQdLKEeXMPXqA8hhWjAdQZA==
   dependencies:
     "@kwsites/file-exists" "^1.1.1"
     "@kwsites/promise-deferred" "^1.1.1"
     "@simple-git/args-pathspec" "1.0.4"
-    "@simple-git/argv-parser" "2.0.1"
+    "@simple-git/argv-parser" "3.0.0"
     debug "^4.4.0"
 
 slugify@1.6.9:
